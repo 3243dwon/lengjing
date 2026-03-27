@@ -27,6 +27,7 @@ export interface OverseasItem {
   title: string;
   summary: string;
   region: string;
+  publishedAt?: string;
 }
 
 export interface IndustryHighlight {
@@ -34,6 +35,7 @@ export interface IndustryHighlight {
   title: string;
   summary: string;
   sentiment: "positive" | "negative" | "neutral";
+  publishedAt?: string;
 }
 
 export interface IndustrySector {
@@ -54,12 +56,18 @@ export interface PremarketSignal {
   direction: "bullish" | "bearish" | "neutral";
 }
 
+export interface OverallSentiment {
+  emoji: string;
+  phrase: string;
+}
+
 export interface Edition {
   meta: {
     date: string;
     edition: string;
     greeting: string;
   };
+  overallSentiment?: OverallSentiment;
   todayHighlights: Highlight[];
   globalMarkets: MarketItem[];
   macroPulse: MacroItem[];

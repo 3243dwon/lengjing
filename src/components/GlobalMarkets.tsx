@@ -7,6 +7,37 @@ function formatPrice(price: number): string {
   return price.toFixed(4);
 }
 
+function HeroCard({ item }: { item: MarketItem }) {
+  const isUp = item.change > 0;
+  const isDown = item.change < 0;
+  const color = isUp ? "text-cn-red" : isDown ? "text-cn-green" : "text-muted";
+  const bgColor = isUp
+    ? "bg-gradient-to-br from-red-50 to-orange-50 border-cn-red/20"
+    : isDown
+      ? "bg-gradient-to-br from-green-50 to-emerald-50 border-cn-green/20"
+      : "bg-gray-50 border-gray-200";
+  const sign = isUp ? "+" : "";
+  const arrow = isUp ? "▲" : isDown ? "▼" : "–";
+
+  return (
+    <div className={`rounded-2xl border ${bgColor} p-5 mb-4`}>
+      <div className="flex items-center gap-2 mb-2">
+        <span className="text-lg">🇨🇳</span>
+        <span className="text-base font-bold text-heading">{item.name}</span>
+        <span className="text-xs text-muted">{item.code}</span>
+      </div>
+      <div className="flex items-end justify-between">
+        <span className="text-3xl font-bold text-heading tabular-nums">
+          {formatPrice(item.price)}
+        </span>
+        <span className={`text-xl font-bold tabular-nums ${color}`}>
+          {arrow} {sign}{item.change.toFixed(2)}%
+        </span>
+      </div>
+    </div>
+  );
+}
+
 function MarketRow({ item }: { item: MarketItem }) {
   const isUp = item.change > 0;
   const isDown = item.change < 0;
@@ -34,6 +65,9 @@ function MarketRow({ item }: { item: MarketItem }) {
 }
 
 export default function GlobalMarkets({ items }: { items: MarketItem[] }) {
+  const sseItem = items.find((i) => i.code === "000001.SS");
+  const otherItems = items.filter((i) => i.code !== "000001.SS");
+
   const groups: Record<string, { label: string; items: MarketItem[] }> = {};
   const groupOrder = [
     { key: "cn", label: "🇨🇳 A股" },
@@ -46,7 +80,7 @@ export default function GlobalMarkets({ items }: { items: MarketItem[] }) {
   ];
 
   for (const g of groupOrder) {
-    const filtered = items.filter((i) => i.region === g.key);
+    const filtered = otherItems.filter((i) => i.region === g.key);
     if (filtered.length > 0) {
       groups[g.key] = { label: g.label, items: filtered };
     }
@@ -54,6 +88,7 @@ export default function GlobalMarkets({ items }: { items: MarketItem[] }) {
 
   return (
     <SectionCard title="全球市场速览" icon="🌍">
+      {sseItem && <HeroCard item={sseItem} />}
       <div className="space-y-3">
         {groupOrder.map((g) => {
           const group = groups[g.key];

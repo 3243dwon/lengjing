@@ -1,5 +1,6 @@
 import type { Edition } from "@/types/edition";
 import FadeIn from "./FadeIn";
+import SentimentBanner from "./SentimentBanner";
 import TodayHighlights from "./TodayHighlights";
 import GlobalMarkets from "./GlobalMarkets";
 import MacroPulse from "./MacroPulse";
@@ -11,6 +12,11 @@ export default function BriefingView({ data }: { data: Edition }) {
   return (
     <>
       <main className="px-4 sm:px-6 pb-8 max-w-lg mx-auto space-y-7">
+        {data.overallSentiment && (
+          <div className="flex justify-center">
+            <SentimentBanner sentiment={data.overallSentiment} />
+          </div>
+        )}
         <FadeIn><TodayHighlights items={data.todayHighlights} /></FadeIn>
         <FadeIn><GlobalMarkets items={data.globalMarkets} /></FadeIn>
         <FadeIn><MacroPulse items={data.macroPulse} /></FadeIn>

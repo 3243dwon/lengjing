@@ -1,5 +1,6 @@
 import type { OverseasItem } from "@/types/edition";
 import SectionCard from "./SectionCard";
+import RelativeTime from "./RelativeTime";
 
 export default function OverseasPerspective({ items }: { items: OverseasItem[] }) {
   return (
@@ -14,6 +15,12 @@ export default function OverseasPerspective({ items }: { items: OverseasItem[] }
               <span className="font-medium">{item.source}</span>
               <span>·</span>
               <span>{item.region}</span>
+              {item.publishedAt && (
+                <>
+                  <span>·</span>
+                  <RelativeTime iso={item.publishedAt} />
+                </>
+              )}
             </div>
             <h3 className="font-semibold text-heading text-[15px] mb-1">
               {item.title}

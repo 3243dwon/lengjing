@@ -4,6 +4,10 @@
     "edition": "晨风早报 · 第 128 期",
     "greeting": "早安，新的一天从掌握市场脉搏开始。"
   },
+  "overallSentiment": {
+    "emoji": "⛅",
+    "phrase": "今日整体偏谨慎"
+  },
   "todayHighlights": [
     {
       "id": 1,
@@ -27,7 +31,7 @@
   "globalMarkets": [
     {
       "name": "上证指数",
-      "code": "SH000001",
+      "code": "000001.SS",
       "price": 3285.67,
       "change": 1.23,
       "region": "cn"
@@ -146,21 +150,24 @@
       "source": "华尔街日报",
       "title": "科技巨头AI军备竞赛进入新阶段",
       "summary": "微软、谷歌、Meta三大科技巨头本季度AI资本开支合计超过500亿美元，创历史新高。分析师担忧AI投资回报周期过长，但各公司高管表示「投资不足的风险远大于投资过度」。",
-      "region": "美国"
+      "region": "美国",
+      "publishedAt": "2026-03-27T02:30:00Z"
     },
     {
       "id": 2,
       "source": "金融时报",
       "title": "日本央行考虑加速退出YCC",
       "summary": "据金融时报援引知情人士消息，日本央行正在讨论在4月会议上进一步调整收益率曲线控制政策，可能将10年期国债收益率目标上限提升至1.5%。日元汇率短线走强。",
-      "region": "日本"
+      "region": "日本",
+      "publishedAt": "2026-03-26T22:15:00Z"
     },
     {
       "id": 3,
       "source": "路透社",
       "title": "OPEC+减产协议面临分歧",
       "summary": "沙特与阿联酋在减产配额分配上出现分歧，市场担忧OPEC+团结出现裂痕。分析人士认为，若减产协议松动，油价短期可能承压回调至75-78美元区间。",
-      "region": "中东"
+      "region": "中东",
+      "publishedAt": "2026-03-26T18:45:00Z"
     }
   ],
   "industryFocus": {
@@ -172,13 +179,15 @@
           "id": 1,
           "title": "创新药出海再获突破",
           "summary": "百济神州泽布替尼在欧洲获批第三个适应症，全球销售额有望突破30亿美元。同时，信达生物PD-1/VEGF双抗在美国FDA获得优先审评资格。",
-          "sentiment": "positive"
+          "sentiment": "positive",
+          "publishedAt": "2026-03-27T01:00:00Z"
         },
         {
           "id": 2,
           "title": "医疗器械集采扩面",
           "summary": "第四批国家医疗器械集采品种名单公布，涉及人工关节、脊柱耗材等8个品类。市场预计平均降幅在50%-70%，相关企业短期业绩承压。",
-          "sentiment": "negative"
+          "sentiment": "negative",
+          "publishedAt": "2026-03-26T23:30:00Z"
         }
       ]
     },
@@ -190,13 +199,15 @@
           "id": 1,
           "title": "光伏行业拐点信号显现",
           "summary": "工信部发布光伏行业规范条件（2026年版），提高新建产能门槛。多家头部企业宣布减产计划，行业供需格局有望在下半年改善。硅料价格本周小幅反弹3.2%。",
-          "sentiment": "positive"
+          "sentiment": "positive",
+          "publishedAt": "2026-03-27T03:00:00Z"
         },
         {
           "id": 2,
           "title": "全国碳市场扩容在即",
           "summary": "生态环境部表示将在年内把钢铁、水泥、铝冶炼行业纳入全国碳排放交易市场，覆盖排放量将占全国总量的60%以上。碳配额价格近期持续走高至95元/吨。",
-          "sentiment": "positive"
+          "sentiment": "positive",
+          "publishedAt": "2026-03-26T20:00:00Z"
         }
       ]
     }

@@ -1,5 +1,6 @@
 import type { IndustryFocus as IndustryFocusType } from "@/types/edition";
 import SectionCard from "./SectionCard";
+import RelativeTime from "./RelativeTime";
 
 const sentimentLabel: Record<string, { text: string; class: string }> = {
   positive: { text: "利好", class: "text-cn-red bg-red-50" },
@@ -37,6 +38,11 @@ export default function IndustryFocus({ data }: { data: IndustryFocusType }) {
                     <p className="text-sm text-body leading-relaxed">
                       {h.summary}
                     </p>
+                    {h.publishedAt && (
+                      <div className="mt-2">
+                        <RelativeTime iso={h.publishedAt} />
+                      </div>
+                    )}
                   </div>
                 );
               })}
