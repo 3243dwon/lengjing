@@ -26,7 +26,11 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
+.env
 .env*.local
+
+# raw fetched data (editions are committed so Vercel can read them)
+/data/raw/
 
 # vercel
 .vercel
@@ -34,3 +38,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+public/.next/

@@ -1,0 +1,284 @@
+/**
+ * fetch-data.ts
+ *
+ * Fetches market quotes (Yahoo Finance), macro indicators (FRED),
+ * and financial news (NewsAPI), then writes everything to
+ * /data/raw/YYYY-MM-DD.json.
+ *
+ * Usage:  npx tsx scripts/fetch-data.ts
+ * Env:    FRED_API_KEY, NEWS_API_KEY  (loaded from .env)
+ */
+
+import "dotenv/config";
+import YahooFinance from "yahoo-finance2";
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const yf = new YahooFinance({ suppressNotices: ["yahooSurvey"] });
+
+// ──────────────────────────────────────────────
+// Config
+// ──────────────────────────────────────────────
+
+const MARKET_SYMBOLS = [
+  { symbol: "^GSPC", label: "标普500", region: "us" },
+  { symbol: "^IXIC", label: "纳斯达克", region: "us" },
+  { symbol: "^DJI", label: "道琼斯", region: "us" },
+  { symbol: "^FTSE", label: "富时100", region: "uk" },
+  { symbol: "^GDAXI", label: "德国DAX", region: "eu" },
+  { symbol: "^N225", label: "日经225", region: "jp" },
+  { symbol: "000001.SS", label: "上证指数", region: "cn" },
+  { symbol: "BZ=F", label: "布伦特原油", region: "commodity" },
+  { symbol: "GC=F", label: "COMEX黄金", region: "commodity" },
+  { symbol: "CNY=X", label: "美元/人民币", region: "fx" },
+];
+
+const FRED_SERIES = [
+  { id: "FEDFUNDS", label: "联邦基金利率" },
+  { id: "CPIAUCSL", label: "CPI (美国)" },
+  { id: "UNRATE", label: "失业率 (美国)" },
+];
+
+const NEWS_QUERIES = [
+  "China stocks",
+  "healthcare sector",
+  "energy sector",
+  "Federal Reserve",
+  "global markets",
+];
+
+// ──────────────────────────────────────────────
+// Helpers
+// ──────────────────────────────────────────────
+
+function today(): string {
+  return new Date().toISOString().slice(0, 10);
+}
+
+function envRequired(key: string): string {
+  const val = process.env[key];
+  if (!val) {
+    console.warn(`⚠  ${key} is not set – skipping that data source.`);
+    return "";
+  }
+  return val;
+}
+
+// ──────────────────────────────────────────────
+// 1. Yahoo Finance – market quotes
+// ──────────────────────────────────────────────
+
+interface MarketQuote {
+  symbol: string;
+  label: string;
+  region: string;
+  price: number | null;
+  change: number | null;
+  changePercent: number | null;
+  currency: string | null;
+  marketState: string | null;
+  fetchedAt: string;
+}
+
+async function fetchMarkets(): Promise<MarketQuote[]> {
+  console.log("📈 Fetching market data from Yahoo Finance …");
+  const results: MarketQuote[] = [];
+
+  for (const { symbol, label, region } of MARKET_SYMBOLS) {
+    try {
+      const quote = await yf.quote(symbol);
+      results.push({
+        symbol,
+        label,
+        region,
+        price: quote.regularMarketPrice ?? null,
+        change: quote.regularMarketChange ?? null,
+        changePercent: quote.regularMarketChangePercent ?? null,
+        currency: quote.currency ?? null,
+        marketState: quote.marketState ?? null,
+        fetchedAt: new Date().toISOString(),
+      });
+      console.log(`   ✓ ${symbol} (${label}): ${quote.regularMarketPrice}`);
+    } catch (err) {
+      console.error(`   ✗ ${symbol}: ${(err as Error).message}`);
+      results.push({
+        symbol,
+        label,
+        region,
+        price: null,
+        change: null,
+        changePercent: null,
+        currency: null,
+        marketState: null,
+        fetchedAt: new Date().toISOString(),
+      });
+    }
+  }
+
+  return results;
+}
+
+// ──────────────────────────────────────────────
+// 2. FRED – macro indicators
+// ──────────────────────────────────────────────
+
+interface FredObservation {
+  date: string;
+  value: string;
+}
+
+interface MacroIndicator {
+  seriesId: string;
+  label: string;
+  latestDate: string | null;
+  latestValue: number | null;
+  unit: string;
+  fetchedAt: string;
+}
+
+async function fetchFred(): Promise<MacroIndicator[]> {
+  const apiKey = envRequired("FRED_API_KEY");
+  if (!apiKey) return [];
+
+  console.log("🏦 Fetching macro data from FRED …");
+  const results: MacroIndicator[] = [];
+
+  for (const { id, label } of FRED_SERIES) {
+    try {
+      const url =
+        `https://api.stlouisfed.org/fred/series/observations?` +
+        `series_id=${id}&api_key=${apiKey}&file_type=json&sort_order=desc&limit=1`;
+
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+      const json = (await res.json()) as { observations: FredObservation[] };
+      const obs = json.observations[0];
+
+      results.push({
+        seriesId: id,
+        label,
+        latestDate: obs?.date ?? null,
+        latestValue: obs ? parseFloat(obs.value) : null,
+        unit: id === "CPIAUCSL" ? "index" : "percent",
+        fetchedAt: new Date().toISOString(),
+      });
+      console.log(`   ✓ ${id} (${label}): ${obs?.value}`);
+    } catch (err) {
+      console.error(`   ✗ ${id}: ${(err as Error).message}`);
+      results.push({
+        seriesId: id,
+        label,
+        latestDate: null,
+        latestValue: null,
+        unit: "",
+        fetchedAt: new Date().toISOString(),
+      });
+    }
+  }
+
+  return results;
+}
+
+// ──────────────────────────────────────────────
+// 3. NewsAPI – financial headlines
+// ──────────────────────────────────────────────
+
+interface NewsArticle {
+  query: string;
+  title: string;
+  description: string | null;
+  source: string;
+  url: string;
+  publishedAt: string;
+}
+
+async function fetchNews(): Promise<NewsArticle[]> {
+  const apiKey = envRequired("NEWS_API_KEY");
+  if (!apiKey) return [];
+
+  console.log("📰 Fetching news from NewsAPI …");
+  const articles: NewsArticle[] = [];
+
+  for (const q of NEWS_QUERIES) {
+    try {
+      const params = new URLSearchParams({
+        q,
+        language: "en",
+        sortBy: "publishedAt",
+        pageSize: "5",
+        apiKey,
+      });
+
+      const res = await fetch(`https://newsapi.org/v2/everything?${params}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+      const json = (await res.json()) as {
+        articles: Array<{
+          title: string;
+          description: string | null;
+          source: { name: string };
+          url: string;
+          publishedAt: string;
+        }>;
+      };
+
+      for (const a of json.articles) {
+        articles.push({
+          query: q,
+          title: a.title,
+          description: a.description,
+          source: a.source.name,
+          url: a.url,
+          publishedAt: a.publishedAt,
+        });
+      }
+      console.log(`   ✓ "${q}": ${json.articles.length} articles`);
+    } catch (err) {
+      console.error(`   ✗ "${q}": ${(err as Error).message}`);
+    }
+  }
+
+  return articles;
+}
+
+// ──────────────────────────────────────────────
+// Main – fetch all & write to disk
+// ──────────────────────────────────────────────
+
+async function main() {
+  const date = today();
+  console.log(`\n🌅 晨风 data fetch — ${date}\n`);
+
+  const [markets, macro, news] = await Promise.all([
+    fetchMarkets(),
+    fetchFred(),
+    fetchNews(),
+  ]);
+
+  const output = {
+    date,
+    fetchedAt: new Date().toISOString(),
+    markets,
+    macro,
+    news,
+  };
+
+  const outDir = path.resolve(__dirname, "..", "data", "raw");
+  fs.mkdirSync(outDir, { recursive: true });
+
+  const outPath = path.join(outDir, `${date}.json`);
+  fs.writeFileSync(outPath, JSON.stringify(output, null, 2), "utf-8");
+
+  console.log(`\n✅ Wrote ${outPath}`);
+  console.log(
+    `   ${markets.length} market quotes, ${macro.length} macro indicators, ${news.length} news articles\n`
+  );
+}
+
+main().catch((err) => {
+  console.error("Fatal error:", err);
+  process.exit(1);
+});

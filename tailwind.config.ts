@@ -9,8 +9,32 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        cream: "#FFF8F0",
+        amber: {
+          accent: "#E8913A",
+        },
+        coral: {
+          accent: "#E8705A",
+        },
+        cn: {
+          red: "#E54D42",
+          green: "#2EA169",
+        },
+        card: "#FFFFFF",
+        muted: "#8C8C8C",
+        heading: "#2D2D2D",
+        body: "#4A4A4A",
+      },
+      fontFamily: {
+        sans: [
+          '"PingFang SC"',
+          '"Hiragino Sans GB"',
+          '"Microsoft YaHei"',
+          "sans-serif",
+        ],
+      },
+      boxShadow: {
+        card: "0 2px 12px rgba(0, 0, 0, 0.06)",
       },
     },
   },

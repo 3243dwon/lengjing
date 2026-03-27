@@ -1,0 +1,222 @@
+{
+  "meta": {
+    "date": "2026-03-27",
+    "edition": "晨风早报 · 2026年3月27日",
+    "greeting": "早安！地缘风险推高油价，A股逆势上涨显韧性"
+  },
+  "todayHighlights": [
+    {
+      "id": 1,
+      "emoji": "🛢️",
+      "title": "油价飙升近5%引发通胀担忧",
+      "summary": "布伦特原油大涨4.86%至106.84美元，创近期新高。特朗普延长对伊朗能源设施打击暂停期10天，但地缘紧张局势持续推高能源价格，市场担心通胀压力重新抬头。"
+    },
+    {
+      "id": 2,
+      "emoji": "📉",
+      "title": "美股全线暴跌超1.5%",
+      "summary": "道指跌1.73%，标普500跌1.67%，纳指重挫2.15%。伊朗战争风险推升油价和债券收益率，加剧市场对通胀和经济前景的担忧，科技股领跌。"
+    },
+    {
+      "id": 3,
+      "emoji": "🇨🇳",
+      "title": "A股逆势上涨0.63%",
+      "summary": "上证指数收涨24.64点至3913.72点，在全球市场普跌背景下表现相对强势。投资者对中国经济复苏预期以及政策支持保持乐观态度。"
+    }
+  ],
+  "globalMarkets": [
+    {
+      "name": "上证指数",
+      "code": "000001.SS",
+      "price": 3913.72,
+      "change": 0.63,
+      "region": "cn"
+    },
+    {
+      "name": "标普500",
+      "code": "^GSPC",
+      "price": 6368.85,
+      "change": -1.67,
+      "region": "us"
+    },
+    {
+      "name": "纳斯达克",
+      "code": "^IXIC",
+      "price": 20948.36,
+      "change": -2.15,
+      "region": "us"
+    },
+    {
+      "name": "道琼斯",
+      "code": "^DJI",
+      "price": 45166.64,
+      "change": -1.73,
+      "region": "us"
+    },
+    {
+      "name": "富时100",
+      "code": "^FTSE",
+      "price": 9967.35,
+      "change": -0.05,
+      "region": "uk"
+    },
+    {
+      "name": "德国DAX",
+      "code": "^GDAXI",
+      "price": 22300.75,
+      "change": -1.38,
+      "region": "eu"
+    },
+    {
+      "name": "日经225",
+      "code": "^N225",
+      "price": 53373.07,
+      "change": -0.43,
+      "region": "jp"
+    },
+    {
+      "name": "布伦特原油",
+      "code": "BZ=F",
+      "price": 106.84,
+      "change": 4.86,
+      "region": "commodity"
+    },
+    {
+      "name": "COMEX黄金",
+      "code": "GC=F",
+      "price": 4521.3,
+      "change": 2.55,
+      "region": "commodity"
+    },
+    {
+      "name": "美元/人民币",
+      "code": "CNY=X",
+      "price": 6.9111,
+      "change": 0.01,
+      "region": "fx"
+    }
+  ],
+  "macroPulse": [
+    {
+      "id": 1,
+      "title": "联邦基金利率维持3.64%",
+      "summary": "美联储2月基准利率保持在3.64%水平，在通胀压力重新抬头背景下，市场对进一步降息预期降温。",
+      "tag": "央行",
+      "sentiment": "neutral"
+    },
+    {
+      "id": 2,
+      "title": "美国失业率升至4.4%",
+      "summary": "2月失业率上升至4.4%，劳动力市场显现松动迹象。就业数据疲弱为美联储政策调整提供空间。",
+      "tag": "就业",
+      "sentiment": "negative"
+    },
+    {
+      "id": 3,
+      "title": "CPI指数持续攀升",
+      "summary": "2月CPI指数升至327.46，能源价格上涨推动通胀预期升温，对货币政策宽松形成制约。",
+      "tag": "通胀",
+      "sentiment": "negative"
+    },
+    {
+      "id": 4,
+      "title": "土耳其支持中国主导贸易协定",
+      "summary": "土耳其取消对中国主导的投资便利化发展协定反对意见，该协定有望纳入WTO多边框架。",
+      "tag": "贸易",
+      "sentiment": "positive"
+    }
+  ],
+  "overseasPerspective": [
+    {
+      "id": 1,
+      "source": "德国之声",
+      "title": "特朗普延长对伊能源设施打击暂停",
+      "summary": "特朗普宣布将对伊朗能源设施的打击暂停期延长10天，并表示与伊朗的谈判「进展顺利」。但伊朗方面否认正在进行任何谈判，地缘紧张局势仍是市场焦点。",
+      "region": "美国"
+    },
+    {
+      "id": 2,
+      "source": "石油价格网",
+      "title": "海湾国家质疑美国安全保障",
+      "summary": "美以攻击伊朗后，海湾阿拉伯国家遭受重大经济和安全损失。伊朗导弹和无人机报复性攻击击中机场、港口和能源基础设施，严重影响航空、贸易和旅游业。",
+      "region": "中东"
+    },
+    {
+      "id": 3,
+      "source": "对话非洲",
+      "title": "能源危机或超越新冠影响",
+      "summary": "分析师警告，如果石油供应持续受阻，全球可能面临前所未有的能源冲击，其对全球经济的影响可能超过新冠疫情时期。",
+      "region": "全球"
+    }
+  ],
+  "industryFocus": {
+    "healthcare": {
+      "title": "医疗健康",
+      "icon": "💊",
+      "highlights": [
+        {
+          "id": 1,
+          "title": "加拿大医疗科技公司获批",
+          "summary": "Premier Health股东大会通过所有提案，这家加拿大领先医疗科技公司业务发展获得股东全面支持。",
+          "sentiment": "positive"
+        },
+        {
+          "id": 2,
+          "title": "尼日利亚医疗改革引争议",
+          "summary": "医疗行业工会计划就政府提出的医疗部门法案在阿布贾举行全国性抗议活动，改革进程面临阻力。",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "energy": {
+      "title": "能源",
+      "icon": "⚡",
+      "highlights": [
+        {
+          "id": 1,
+          "title": "东南亚数据中心面临散热挑战",
+          "summary": "东南亚数据中心建设热潮加速，但高温高湿环境推高能源需求，给AI基础设施增长带来复杂性挑战。",
+          "sentiment": "neutral"
+        },
+        {
+          "id": 2,
+          "title": "G7协调应对多线冲突",
+          "summary": "G7外长会议讨论如何平衡处理俄乌冲突和伊朗战争，美国盟友担心华盛顿在伊朗战争中忽视乌克兰优先级。",
+          "sentiment": "negative"
+        }
+      ]
+    }
+  },
+  "premarketSignals": [
+    {
+      "id": 1,
+      "category": "地缘风险",
+      "signal": "中东紧张局势推高避险需求，黄金突破4500美元关口",
+      "direction": "bullish"
+    },
+    {
+      "id": 2,
+      "category": "商品价格",
+      "signal": "油价暴涨近5%至106美元，通胀预期升温",
+      "direction": "bearish"
+    },
+    {
+      "id": 3,
+      "category": "汇率走势",
+      "signal": "美元兑人民币维持6.91水平，汇率相对稳定",
+      "direction": "neutral"
+    },
+    {
+      "id": 4,
+      "category": "政策信号",
+      "signal": "美联储降息预期降温，债券收益率上升",
+      "direction": "bearish"
+    },
+    {
+      "id": 5,
+      "category": "市场情绪",
+      "signal": "A股逆势上涨显示相对韧性，关注资金流向变化",
+      "direction": "bullish"
+    }
+  ]
+}
