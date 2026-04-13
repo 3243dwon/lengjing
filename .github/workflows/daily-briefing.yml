@@ -2,8 +2,8 @@ name: Daily Briefing
 
 "on":
   schedule:
-    # 00:05 UTC every day (~08:05 CST) — offset to avoid GitHub midnight congestion
-    - cron: "5 0 * * *"
+    # 20:05 UTC every day (~04:05 CST) — early generation to avoid GitHub congestion
+    - cron: "5 20 * * *"
   workflow_dispatch:
 
 permissions:
