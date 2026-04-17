@@ -1,0 +1,586 @@
+{
+  "date": "2026-04-17",
+  "fetchedAt": "2026-04-17T02:54:32.027Z",
+  "markets": [
+    {
+      "symbol": "^GSPC",
+      "label": "标普500",
+      "region": "us",
+      "price": 7041.28,
+      "change": 155.04,
+      "changePercent": 2.25,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-17T02:54:30.098Z"
+    },
+    {
+      "symbol": "^IXIC",
+      "label": "纳斯达克",
+      "region": "us",
+      "price": 24102.703,
+      "change": 918.96,
+      "changePercent": 3.96,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-17T02:54:30.202Z"
+    },
+    {
+      "symbol": "^DJI",
+      "label": "道琼斯",
+      "region": "us",
+      "price": 48578.72,
+      "change": 360.47,
+      "changePercent": 0.75,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-17T02:54:30.272Z"
+    },
+    {
+      "symbol": "^FTSE",
+      "label": "富时100",
+      "region": "uk",
+      "price": 10589.99,
+      "change": 6.99,
+      "changePercent": 0.07,
+      "currency": "GBP",
+      "marketState": null,
+      "fetchedAt": "2026-04-17T02:54:30.336Z"
+    },
+    {
+      "symbol": "^GDAXI",
+      "label": "德国DAX",
+      "region": "eu",
+      "price": 24154.47,
+      "change": 412.03,
+      "changePercent": 1.74,
+      "currency": "EUR",
+      "marketState": null,
+      "fetchedAt": "2026-04-17T02:54:30.405Z"
+    },
+    {
+      "symbol": "^N225",
+      "label": "日经225",
+      "region": "jp",
+      "price": 58930.87,
+      "change": 1053.48,
+      "changePercent": 1.82,
+      "currency": "JPY",
+      "marketState": null,
+      "fetchedAt": "2026-04-17T02:54:30.469Z"
+    },
+    {
+      "symbol": "000001.SS",
+      "label": "上证指数",
+      "region": "cn",
+      "price": 4047.5632,
+      "change": 20.94,
+      "changePercent": 0.52,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-17T02:54:30.535Z"
+    },
+    {
+      "symbol": "000300.SS",
+      "label": "沪深300",
+      "region": "cn",
+      "price": 4731.828,
+      "change": 30.55,
+      "changePercent": 0.65,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-17T02:54:30.599Z"
+    },
+    {
+      "symbol": "^HSI",
+      "label": "恒生指数",
+      "region": "hk",
+      "price": 26132.58,
+      "change": 260.26,
+      "changePercent": 1.01,
+      "currency": "HKD",
+      "marketState": null,
+      "fetchedAt": "2026-04-17T02:54:30.727Z"
+    },
+    {
+      "symbol": "BZ=F",
+      "label": "布伦特原油",
+      "region": "commodity",
+      "price": 98.18,
+      "change": -1.18,
+      "changePercent": -1.19,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-17T02:54:30.789Z"
+    },
+    {
+      "symbol": "GC=F",
+      "label": "COMEX黄金",
+      "region": "commodity",
+      "price": 4811.9,
+      "change": 69.5,
+      "changePercent": 1.47,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-17T02:54:30.853Z"
+    },
+    {
+      "symbol": "CNY=X",
+      "label": "美元/人民币",
+      "region": "fx",
+      "price": 6.8244,
+      "change": -0.01,
+      "changePercent": -0.09,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-17T02:54:30.922Z"
+    }
+  ],
+  "sparklines": [
+    {
+      "symbol": "^GSPC",
+      "closes": [
+        6782.81005859375,
+        6824.66015625,
+        6816.89013671875,
+        6886.240234375,
+        6967.3798828125,
+        7022.9501953125,
+        7041.27978515625
+      ]
+    },
+    {
+      "symbol": "^IXIC",
+      "closes": [
+        22634.990234375,
+        22822.419921875,
+        22902.890625,
+        23183.740234375,
+        23639.080078125,
+        24016.01953125,
+        24102.703125
+      ]
+    },
+    {
+      "symbol": "^DJI",
+      "closes": [
+        47909.921875,
+        48185.80078125,
+        47916.5703125,
+        48218.25,
+        48535.98828125,
+        48463.71875,
+        48578.71875
+      ]
+    },
+    {
+      "symbol": "^FTSE",
+      "closes": [
+        10608.900390625,
+        10603.5,
+        10600.5,
+        10583,
+        10609.099609375,
+        10559.599609375,
+        10590
+      ]
+    },
+    {
+      "symbol": "^GDAXI",
+      "closes": [
+        24080.630859375,
+        23806.990234375,
+        23803.94921875,
+        23742.439453125,
+        24044.220703125,
+        24066.69921875,
+        24154.470703125
+      ]
+    },
+    {
+      "symbol": "^N225",
+      "closes": [
+        55895.3203125,
+        56924.109375,
+        56502.76953125,
+        57877.390625,
+        58134.23828125,
+        59518.33984375,
+        58930.87109375
+      ]
+    },
+    {
+      "symbol": "000001.SS",
+      "closes": [
+        3966.1708984375,
+        3986.22509765625,
+        3988.55810546875,
+        4026.625,
+        4027.208984375,
+        4055.547119140625,
+        4047.563232421875
+      ]
+    },
+    {
+      "symbol": "000300.SS",
+      "closes": [
+        4566.22021484375,
+        4636.56982421875,
+        4646.16015625,
+        4701.27978515625,
+        4685.25,
+        4736.60986328125,
+        4731.82763671875
+      ]
+    },
+    {
+      "symbol": "^HSI",
+      "closes": [
+        25752.400390625,
+        25893.5390625,
+        25660.849609375,
+        25872.3203125,
+        25947.3203125,
+        26394.259765625,
+        26132.580078125
+      ]
+    },
+    {
+      "symbol": "BZ=F",
+      "closes": [
+        95.91999816894531,
+        95.19999694824219,
+        99.36000061035156,
+        94.79000091552734,
+        94.93000030517578,
+        99.38999938964844,
+        98.18000030517578
+      ]
+    },
+    {
+      "symbol": "GC=F",
+      "closes": [
+        4792.2001953125,
+        4761.89990234375,
+        4742.39990234375,
+        4825,
+        4800,
+        4785.39990234375,
+        4811.89990234375
+      ]
+    },
+    {
+      "symbol": "CNY=X",
+      "closes": [
+        6.828700065612793,
+        6.831399917602539,
+        6.8277997970581055,
+        6.8302998542785645,
+        6.815700054168701,
+        6.817999839782715,
+        6.824399948120117
+      ]
+    }
+  ],
+  "macro": [
+    {
+      "seriesId": "FEDFUNDS",
+      "label": "联邦基金利率",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-17T02:54:30.102Z"
+    },
+    {
+      "seriesId": "CPIAUCSL",
+      "label": "CPI (美国)",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-17T02:54:30.317Z"
+    },
+    {
+      "seriesId": "UNRATE",
+      "label": "失业率 (美国)",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-17T02:54:30.453Z"
+    }
+  ],
+  "news": [
+    {
+      "query": "US Top News",
+      "title": "Trump says war in Iran is going &apos;swimmingly&apos; and &apos;should be ending pretty soon&apos;",
+      "description": "President Donald Trump's latest prediction on the end of the war against Iran came hours after Israel announced a ceasefire with Lebanon.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/16/trump-iran-war-predicts-end-soon.html",
+      "publishedAt": "2026-04-17T00:49:37.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Trump nominates Erica Schwartz as CDC director amid turmoil around leadership, vaccine policy",
+      "description": "The CDC has been going through turmoil and several leadership shakeups under HHS Secretary Robert F. Kennedy Jr. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/16/trump-nominates-erica-schwartz-as-cdc-director.html",
+      "publishedAt": "2026-04-16T22:39:45.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Oil falls as Trump reiterates Iran war ‘should’ end soon and Israel-Lebanon truce lifts hopes",
+      "description": "Oil prices fell after Donald Trump said Israel and Lebanon had agreed to a 10-day ceasefire following talks in Washington. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/17/oil-prices-wti-brent-israel-lebanon-ceasefire-trump.html",
+      "publishedAt": "2026-04-17T00:57:36.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Kevin Warsh wants to lead a scandal-ridden Fed. His wealth is a complication.",
+      "description": "Sen. Elizabeth Warren, D-Mass., is calling attention to potential issues in the Fed chair nominee's financial disclosures.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/16/fed-kevin-warsh-elizabeth-warren-financial-disclosures.html",
+      "publishedAt": "2026-04-16T20:12:16.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "The &apos;debasement trade&apos; has driven gold to new heights. Wells Fargo&apos;s bull case calls for $8,000 an ounce",
+      "description": "\"We're in the 4th debasement cycle that started in 2022,\" wrote Wells Fargo Securities' Ohsung Kwon. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/16/gold-wells-fargos-bull-case-sees-the-metal-reaching-8000-an-ounce.html",
+      "publishedAt": "2026-04-16T20:01:06.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Netflix stock sinks after streamer reiterates guidance, says Reed Hastings to exit board",
+      "description": "Netflix beat expectations for Q1 revenue and reported a big jump in earnings per share thanks in part to a termination fee related to its proposed WBD deal. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/16/netflix-nflx-earnings-q1-2026.html",
+      "publishedAt": "2026-04-17T02:22:51.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Asia markets open lower as fragile Middle East ceasefire tempers sentiment",
+      "description": "Asia-Pacific markets open lower Friday as an Israel-Lebanon ceasefire tempered risk appetite, even after Wall Street closed at fresh record highs.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/17/asia-markets-today-nikkei225-hang-seng-sensex-asx-ceasefire-oil.html",
+      "publishedAt": "2026-04-17T01:56:44.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Trump says gas prices &apos;not very high&apos; as most U.S. voters blame him for price spike",
+      "description": "Trump touted the rising stock market as he brushed off concerns that Americans are laboring under higher gas prices as a result of the Iran war.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/16/trump-gas-prices-iran-war.html",
+      "publishedAt": "2026-04-16T20:51:27.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Finance ministers and top bankers raise serious concerns about Mythos AI model",
+      "description": "Experts say Mythos potentially has an unprecedented ability to identify and exploit cybersecurity weaknesses.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c2ev24yx4rmo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-17T01:34:22.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Rising value of Pokémon cards sparks smash and grab crime spree",
+      "description": "Small shops across the UK are being targeted by thieves stealing collectibles worth thousands of pounds.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c4gvvnpl5kno?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-16T23:01:59.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Netflix co-founder Reed Hastings to step down as chairman",
+      "description": "Hastings set up the company in 1997, when it rented DVDs to customers and delivered by post.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cvglzn9e82eo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-16T21:59:56.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "No issues with UK fuel supply, says Reeves",
+      "description": "The chancellor was speaking at the end of the International Monetary Fund meeting in Washington.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c5y97jjnqzyo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-16T17:05:32.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Europe has 'maybe six weeks of jet fuel left', energy boss warns",
+      "description": null,
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/czjw2kz0l22o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-16T19:19:07.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Could a digital twin make you into a 'superworker'?",
+      "description": "Firms say digital twins make staff more productive, but are they a potential legal minefield?",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c1d907lq6nyo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-16T23:04:15.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "UK economy grew faster than expected in February ahead of Iran war",
+      "description": "The economy saw its biggest monthly rise in more than two years just before the outbreak of the US-Israeli war with Iran.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cz0e23r0993o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-16T10:22:48.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "UK prepares for food shortages in worst case scenario as Iran war continues ",
+      "description": "The UK could face some food shortages by the summer under a worst case scenario drawn up by government officials.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cpvxp4xnrwdo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-16T16:04:42.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Cramer warns of excessive speculation in the market. He says buy these credible stocks instead",
+      "description": "CNBC's Jim Cramer warns that speculation is getting out of hand and points to alternative places to invest. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/16/cramer-warns-excess-speculation-buy-these-instead.html",
+      "publishedAt": "2026-04-16T22:29:52.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Here&apos;s our monthly update on all 31 portfolio stocks, including 3 on the buy list",
+      "description": "Jim Cramer gave his latest thinking on all 31 stocks owned by the CNBC Investing Club, including Nvidia, Apple, and Microsoft. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/16/heres-our-april-update-on-all-31-portfolio-stocks-including-4-buys.html",
+      "publishedAt": "2026-04-16T19:14:37.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Google will let users connect their photos to the Gemini chatbot and Nano Banana",
+      "description": "Linking Gemini directly to a user's photo library represents a bigger step in the AI chatbot link to private information.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/16/google-photo-gemini-chatbot-nano-banana.html",
+      "publishedAt": "2026-04-16T19:53:52.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Quantum stocks on pace for a massive week after Nvidia debuts AI models to boost the tech",
+      "description": "Hyperscalers Alphabet, Amazon and Microsoft have been investing heavily in chips to power quantum computing",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/16/quantum-stocks-nvidia-ai-models.html",
+      "publishedAt": "2026-04-16T20:15:50.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Anthropic rolls out Claude Opus 4.7, an AI model that is less risky than Mythos",
+      "description": "Claude Mythos Preview is Anthropic's most powerful AI model that excels at identifying weaknesses and security flaws within software.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/16/anthropic-claude-opus-4-7-model-mythos.html",
+      "publishedAt": "2026-04-16T16:25:45.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "TSMC and ASML post-earnings stock moves could be a sign of what&apos;s to come from chip companies",
+      "description": "Two of the biggest chipmakers, TSMC and ASML, failed to catch major tail winds from strong earnings. It could be a bellwether for the chip industry as a whole.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/16/taiwan-semi-tsm-asml-stock-earnings-ai-chips.html",
+      "publishedAt": "2026-04-16T18:03:42.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "S&amp;P 500&apos;s all-time high, investigators visit the Fed, Allbirds&apos; rebrand and more in Morning Squawk",
+      "description": "Here are five key things investors need to know to start the trading day.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/16/5-things-to-know-before-the-market-opens.html",
+      "publishedAt": "2026-04-16T12:27:44.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Sens. Warren and Blumenthal investigate NLRB decision to drop charges against SpaceX for retaliatory firings",
+      "description": "Sens. Elizabeth Warren, D-Mass., and Richard Blumenthal, D-Conn., are investigating the NLRB after it dropped charges against Elon Musk's SpaceX in February over retaliatory firings. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/16/sens-warren-and-blumenthal-investigate-nlrb-decision-to-drop-charges-against-spacex-for-retaliatory-firings.html",
+      "publishedAt": "2026-04-16T12:10:36.000Z"
+    }
+  ],
+  "chinaNews": [
+    {
+      "query": "财经要闻",
+      "title": "光大期货0417黄金点评：谈判窗口延续，金价修复之路未变",
+      "description": "隔夜，外盘COMEX黄金窄幅震荡，在连续反弹后呈现短暂的休整态势。 地缘政治层面释放出多重信号。美国总统特朗普最新表示，美伊下一轮直接会谈可能在本周末于巴基斯坦举行...",
+      "source": "市场资讯",
+      "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-04-17/doc-inhuupth6534596.shtml",
+      "publishedAt": "2026-04-17T02:53:56.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "天域半导体早盘涨超7% AI芯片需求将持续保持强劲",
+      "description": "天域半导体（02658）早盘涨超7%，截至发稿，股价上涨7.03%，现报47.52港元，成交额817.02万港元。 4月16日，台积电发布2026年第一季度业绩并召开分析师会议，台积电表示...",
+      "source": "新浪港股",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-04-17/doc-inhuupth6532821.shtml",
+      "publishedAt": "2026-04-17T02:51:17.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "ASMPT盘中涨超5%创新高 公司有望将三星添为第二家主要客户",
+      "description": " ASMPT（00522）盘中涨超5%，高见139.70港元，再创历史新高。截至发稿，股价上涨3.61%，现报137.60港元，成交额2.79亿港元。",
+      "source": "新浪港股",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-04-17/doc-inhuuimh2374294.shtml",
+      "publishedAt": "2026-04-17T02:49:07.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "美国前财长警告：美国国债需求或崩溃 呼吁拟定紧急备案",
+      "description": "美国前财政部长亨利·保尔森建议，面对外界长期以来对联邦债务规模的担忧，美国当局应提前准备“紧急备案”，以防未来国债需求出现崩溃性下滑，并警告...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuuimq1170329.shtml",
+      "publishedAt": "2026-04-17T02:46:43.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "协合新能源早盘涨近3% 1GW容量数据中心在美获授予并网许可",
+      "description": "协合新能源（00182）盘中涨超3%，截至发稿，股价上涨2.53%，现报0.243港元，成交额770.88万港元。 4月16日，协合新能源发布公告，集团开发的1000兆瓦（1吉瓦）容量数据中心...",
+      "source": "新浪港股",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-04-17/doc-inhuuimn3434837.shtml",
+      "publishedAt": "2026-04-17T02:43:27.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "方一天离任官宣！万家基金“换帅”：老将陈广益升任董事长 “投研派”莫海波出任总经理",
+      "description": "4月17日，万家基金发布董事长及高级管理人员变更公告，掌舵公司长达11年的董事长方一天因个人原因正式离任，离职日期为2026年4月16日。",
+      "source": "新浪基金",
+      "url": "https://finance.sina.com.cn/stock/observe/2026-04-17/doc-inhuupth6533731.shtml",
+      "publishedAt": "2026-04-17T02:52:40.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "天域半导体早盘涨超7% AI芯片需求将持续保持强劲",
+      "description": "天域半导体（02658）早盘涨超7%，截至发稿，股价上涨7.03%，现报47.52港元，成交额817.02万港元。 4月16日，台积电发布2026年第一季度业绩并召开分析师会议，台积电表示...",
+      "source": "新浪港股",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-04-17/doc-inhuupth6532821.shtml",
+      "publishedAt": "2026-04-17T02:51:17.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "ASMPT盘中涨超5%创新高 公司有望将三星添为第二家主要客户",
+      "description": " ASMPT（00522）盘中涨超5%，高见139.70港元，再创历史新高。截至发稿，股价上涨3.61%，现报137.60港元，成交额2.79亿港元。",
+      "source": "新浪港股",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-04-17/doc-inhuuimh2374294.shtml",
+      "publishedAt": "2026-04-17T02:49:07.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "美国前财长警告：美国国债需求或崩溃 呼吁拟定紧急备案",
+      "description": "美国前财政部长亨利·保尔森建议，面对外界长期以来对联邦债务规模的担忧，美国当局应提前准备“紧急备案”，以防未来国债需求出现崩溃性下滑，并警告...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuuimq1170329.shtml",
+      "publishedAt": "2026-04-17T02:46:43.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "协合新能源早盘涨近3% 1GW容量数据中心在美获授予并网许可",
+      "description": "协合新能源（00182）盘中涨超3%，截至发稿，股价上涨2.53%，现报0.243港元，成交额770.88万港元。 4月16日，协合新能源发布公告，集团开发的1000兆瓦（1吉瓦）容量数据中心...",
+      "source": "新浪港股",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-04-17/doc-inhuuimn3434837.shtml",
+      "publishedAt": "2026-04-17T02:43:27.000Z"
+    }
+  ]
+}
