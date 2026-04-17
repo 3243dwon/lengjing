@@ -47,9 +47,9 @@ jobs:
           DATE=$(date +%Y-%m-%d)
           EDITION_FILE="data/editions/${DATE}.json"
           RAW_FILE="data/raw/${DATE}.json"
-          # Stage raw data if it exists (useful for debugging)
+          # Stage raw data if it exists (useful for debugging, force past .gitignore)
           if [ -f "$RAW_FILE" ]; then
-            git add "$RAW_FILE"
+            git add -f "$RAW_FILE" || true
           fi
           if [ -f "$EDITION_FILE" ]; then
             git add "$EDITION_FILE"
