@@ -32,6 +32,7 @@ jobs:
       - name: Fetch raw data
         env:
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          NEWSAPI_AI_KEY: ${{ secrets.NEWSAPI_AI_KEY }}
         run: npm run fetch-data
 
       - name: Generate briefing

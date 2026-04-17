@@ -269,9 +269,69 @@ function parseRSSItems(xml: string): Array<{ title: string; description: string;
 }
 
 async function fetchNews(): Promise<NewsArticle[]> {
-  console.log("📰 Fetching international news from RSS feeds …");
+  console.log("📰 Fetching international news …");
   const articles: NewsArticle[] = [];
 
+  // --- Part A: NewsAPI.ai (Event Registry) — premium source with sentiment ---
+  const newsApiAiKey = process.env.NEWSAPI_AI_KEY;
+  if (newsApiAiKey) {
+    const queries = [
+      { keyword: "China stocks", label: "China Stocks" },
+      { keyword: "Federal Reserve", label: "Federal Reserve" },
+      { keyword: "global markets oil", label: "Global Markets" },
+    ];
+
+    for (const { keyword, label } of queries) {
+      try {
+        const query = JSON.stringify({
+          $query: { keyword, keywordLoc: "title" },
+          $filter: { forceMaxDataTimeWindow: "1" },
+        });
+        const params = new URLSearchParams({
+          query,
+          resultType: "articles",
+          articlesSortBy: "date",
+          articlesCount: "5",
+          apiKey: newsApiAiKey,
+        });
+
+        const res = await fetch(`https://newsapi.ai/api/v1/article/getArticles?${params}`, {
+          signal: AbortSignal.timeout(10_000),
+        });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+        const json = (await res.json()) as {
+          articles?: {
+            results?: Array<{
+              title: string;
+              body: string;
+              url: string;
+              dateTime: string;
+              source: { title: string };
+              sentiment?: number;
+            }>;
+          };
+        };
+
+        const results = json.articles?.results ?? [];
+        for (const a of results) {
+          articles.push({
+            query: label,
+            title: a.title,
+            description: a.body?.slice(0, 300) || null,
+            source: a.source?.title ?? "Unknown",
+            url: a.url,
+            publishedAt: a.dateTime ?? new Date().toISOString(),
+          });
+        }
+        console.log(`   ✓ NewsAPI.ai "${label}": ${results.length} articles`);
+      } catch (err) {
+        console.warn(`   ✗ NewsAPI.ai "${label}": ${(err as Error).message} (skipping)`);
+      }
+    }
+  }
+
+  // --- Part B: RSS feeds (free fallback, always runs) ---
   for (const feed of RSS_FEEDS) {
     try {
       const res = await fetch(feed.url, {
@@ -293,9 +353,9 @@ async function fetchNews(): Promise<NewsArticle[]> {
           publishedAt: item.pubDate ? new Date(item.pubDate).toISOString() : new Date().toISOString(),
         });
       }
-      console.log(`   ✓ ${feed.source} "${feed.label}": ${items.length} articles`);
+      console.log(`   ✓ RSS ${feed.source} "${feed.label}": ${items.length} articles`);
     } catch (err) {
-      console.warn(`   ✗ ${feed.source}: ${(err as Error).message} (skipping)`);
+      console.warn(`   ✗ RSS ${feed.source}: ${(err as Error).message} (skipping)`);
     }
   }
 
