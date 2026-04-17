@@ -43,13 +43,7 @@ const FRED_SERIES = [
   { id: "UNRATE", label: "失业率 (美国)" },
 ];
 
-const NEWS_QUERIES = [
-  "China stocks",
-  "healthcare sector",
-  "energy sector",
-  "Federal Reserve",
-  "global markets",
-];
+// NEWS_QUERIES removed — now using RSS feeds instead of NewsAPI
 
 // ──────────────────────────────────────────────
 // Helpers
@@ -236,7 +230,7 @@ async function fetchFred(): Promise<MacroIndicator[]> {
 }
 
 // ──────────────────────────────────────────────
-// 3. NewsAPI – financial headlines
+// 3. RSS Feeds – international financial news (no API key needed)
 // ──────────────────────────────────────────────
 
 interface NewsArticle {
@@ -248,49 +242,60 @@ interface NewsArticle {
   publishedAt: string;
 }
 
-async function fetchNews(): Promise<NewsArticle[]> {
-  const apiKey = envRequired("NEWS_API_KEY");
-  if (!apiKey) return [];
+const RSS_FEEDS = [
+  { url: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114", source: "CNBC", label: "US Top News" },
+  { url: "https://feeds.bbci.co.uk/news/business/rss.xml", source: "BBC", label: "BBC Business" },
+  { url: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910", source: "CNBC", label: "Asia Markets" },
+];
 
-  console.log("📰 Fetching news from NewsAPI …");
+function parseRSSItems(xml: string): Array<{ title: string; description: string; link: string; pubDate: string }> {
+  const items: Array<{ title: string; description: string; link: string; pubDate: string }> = [];
+  const itemRegex = /<item>([\s\S]*?)<\/item>/g;
+  let match;
+
+  while ((match = itemRegex.exec(xml)) !== null) {
+    const block = match[1];
+    const title = block.match(/<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/title>/)?.[1] ?? "";
+    const description = block.match(/<description>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/description>/)?.[1] ?? "";
+    const link = block.match(/<link>(.*?)<\/link>/)?.[1] ?? "";
+    const pubDate = block.match(/<pubDate>(.*?)<\/pubDate>/)?.[1] ?? "";
+
+    if (title) {
+      items.push({ title, description, link, pubDate });
+    }
+  }
+
+  return items;
+}
+
+async function fetchNews(): Promise<NewsArticle[]> {
+  console.log("📰 Fetching international news from RSS feeds …");
   const articles: NewsArticle[] = [];
 
-  for (const q of NEWS_QUERIES) {
+  for (const feed of RSS_FEEDS) {
     try {
-      const params = new URLSearchParams({
-        q,
-        language: "en",
-        sortBy: "publishedAt",
-        pageSize: "5",
-        apiKey,
+      const res = await fetch(feed.url, {
+        headers: { "User-Agent": "Mozilla/5.0" },
+        signal: AbortSignal.timeout(10_000),
       });
-
-      const res = await fetch(`https://newsapi.org/v2/everything?${params}`);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
-      const json = (await res.json()) as {
-        articles: Array<{
-          title: string;
-          description: string | null;
-          source: { name: string };
-          url: string;
-          publishedAt: string;
-        }>;
-      };
+      const xml = await res.text();
+      const items = parseRSSItems(xml).slice(0, 8);
 
-      for (const a of json.articles) {
+      for (const item of items) {
         articles.push({
-          query: q,
-          title: a.title,
-          description: a.description,
-          source: a.source.name,
-          url: a.url,
-          publishedAt: a.publishedAt,
+          query: feed.label,
+          title: item.title,
+          description: item.description || null,
+          source: feed.source,
+          url: item.link,
+          publishedAt: item.pubDate ? new Date(item.pubDate).toISOString() : new Date().toISOString(),
         });
       }
-      console.log(`   ✓ "${q}": ${json.articles.length} articles`);
+      console.log(`   ✓ ${feed.source} "${feed.label}": ${items.length} articles`);
     } catch (err) {
-      console.error(`   ✗ "${q}": ${(err as Error).message}`);
+      console.warn(`   ✗ ${feed.source}: ${(err as Error).message} (skipping)`);
     }
   }
 
