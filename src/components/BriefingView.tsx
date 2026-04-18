@@ -7,6 +7,7 @@ import MacroPulse from "./MacroPulse";
 import OverseasPerspective from "./OverseasPerspective";
 import IndustryFocus from "./IndustryFocus";
 import PremarketSignals from "./PremarketSignals";
+import MarketImpactAnalysis from "./MarketImpactAnalysis";
 
 export default function BriefingView({ data }: { data: Edition }) {
   return (
@@ -18,6 +19,9 @@ export default function BriefingView({ data }: { data: Edition }) {
           </div>
         )}
         <FadeIn><TodayHighlights items={data.todayHighlights} /></FadeIn>
+        {data.marketImpactAnalysis && (
+          <FadeIn><MarketImpactAnalysis data={data.marketImpactAnalysis} /></FadeIn>
+        )}
         <FadeIn><GlobalMarkets items={data.globalMarkets} /></FadeIn>
         <FadeIn><MacroPulse items={data.macroPulse} /></FadeIn>
         <FadeIn><OverseasPerspective items={data.overseasPerspective} /></FadeIn>

@@ -62,6 +62,20 @@ export interface OverallSentiment {
   phrase: string;
 }
 
+export interface MarketImpactItem {
+  id: number;
+  event: string; // 关键事件描述
+  chinaImpact: string; // 对A股的影响分析
+  hkImpact: string; // 对港股的影响分析
+  affectedSectors: string[]; // 受影响板块
+  sentiment: "positive" | "negative" | "neutral";
+}
+
+export interface MarketImpactAnalysis {
+  summary: string; // 一句话总结今日对CN/HK股市的整体影响
+  items: MarketImpactItem[];
+}
+
 export interface Edition {
   meta: {
     date: string;
@@ -75,4 +89,5 @@ export interface Edition {
   overseasPerspective: OverseasItem[];
   industryFocus: IndustryFocus;
   premarketSignals: PremarketSignal[];
+  marketImpactAnalysis?: MarketImpactAnalysis;
 }

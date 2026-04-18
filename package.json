@@ -9,6 +9,7 @@
     "lint": "next lint",
     "fetch-data": "tsx scripts/fetch-data.ts",
     "generate-briefing": "tsx scripts/generate-briefing.ts",
+    "notify-feishu": "tsx scripts/notify-feishu.ts",
     "generate": "npm run fetch-data && npm run generate-briefing"
   },
   "dependencies": {

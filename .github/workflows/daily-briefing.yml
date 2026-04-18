@@ -40,6 +40,14 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: npm run generate-briefing
 
+      - name: Notify Feishu
+        if: success()
+        env:
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          SITE_URL: https://lengjing.vercel.app
+        run: npm run notify-feishu
+        continue-on-error: true
+
       - name: Commit and push edition
         run: |
           git config user.name "github-actions[bot]"
