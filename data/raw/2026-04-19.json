@@ -1,0 +1,647 @@
+{
+  "date": "2026-04-19",
+  "fetchedAt": "2026-04-19T02:44:34.348Z",
+  "markets": [
+    {
+      "symbol": "^GSPC",
+      "label": "标普500",
+      "region": "us",
+      "price": 7126.06,
+      "change": 103.11,
+      "changePercent": 1.47,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-19T02:44:31.752Z"
+    },
+    {
+      "symbol": "^IXIC",
+      "label": "纳斯达克",
+      "region": "us",
+      "price": 24468.48,
+      "change": 452.46,
+      "changePercent": 1.88,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-19T02:44:31.801Z"
+    },
+    {
+      "symbol": "^DJI",
+      "label": "道琼斯",
+      "region": "us",
+      "price": 49447.43,
+      "change": 983.71,
+      "changePercent": 2.03,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-19T02:44:31.842Z"
+    },
+    {
+      "symbol": "^FTSE",
+      "label": "富时100",
+      "region": "uk",
+      "price": 10667.63,
+      "change": 108.03,
+      "changePercent": 1.02,
+      "currency": "GBP",
+      "marketState": null,
+      "fetchedAt": "2026-04-19T02:44:31.886Z"
+    },
+    {
+      "symbol": "^GDAXI",
+      "label": "德国DAX",
+      "region": "eu",
+      "price": 24702.24,
+      "change": 635.54,
+      "changePercent": 2.64,
+      "currency": "EUR",
+      "marketState": null,
+      "fetchedAt": "2026-04-19T02:44:31.926Z"
+    },
+    {
+      "symbol": "^N225",
+      "label": "日经225",
+      "region": "jp",
+      "price": 58475.9,
+      "change": -1042.44,
+      "changePercent": -1.75,
+      "currency": "JPY",
+      "marketState": null,
+      "fetchedAt": "2026-04-19T02:44:31.965Z"
+    },
+    {
+      "symbol": "000001.SS",
+      "label": "上证指数",
+      "region": "cn",
+      "price": 4051.4253,
+      "change": -4.12,
+      "changePercent": -0.1,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-19T02:44:32.003Z"
+    },
+    {
+      "symbol": "000300.SS",
+      "label": "沪深300",
+      "region": "cn",
+      "price": 4728.671,
+      "change": -7.94,
+      "changePercent": -0.17,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-19T02:44:32.041Z"
+    },
+    {
+      "symbol": "399001.SZ",
+      "label": "深证成指",
+      "region": "cn",
+      "price": 14885.416,
+      "change": 89.09,
+      "changePercent": 0.6,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-19T02:44:32.084Z"
+    },
+    {
+      "symbol": "^HSI",
+      "label": "恒生指数",
+      "region": "hk",
+      "price": 26160.33,
+      "change": -233.93,
+      "changePercent": -0.89,
+      "currency": "HKD",
+      "marketState": null,
+      "fetchedAt": "2026-04-19T02:44:32.124Z"
+    },
+    {
+      "symbol": "^HSCE",
+      "label": "恒生中国企业",
+      "region": "hk",
+      "price": 8845.02,
+      "change": -60.09,
+      "changePercent": -0.67,
+      "currency": "HKD",
+      "marketState": null,
+      "fetchedAt": "2026-04-19T02:44:32.162Z"
+    },
+    {
+      "symbol": "^HSTECH",
+      "label": "恒生科技",
+      "region": "hk",
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "currency": null,
+      "marketState": null,
+      "fetchedAt": "2026-04-19T02:44:32.202Z"
+    },
+    {
+      "symbol": "BZ=F",
+      "label": "布伦特原油",
+      "region": "commodity",
+      "price": 90.38,
+      "change": -4.55,
+      "changePercent": -4.79,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-19T02:44:32.238Z"
+    },
+    {
+      "symbol": "GC=F",
+      "label": "COMEX黄金",
+      "region": "commodity",
+      "price": 4879.6,
+      "change": 79.6,
+      "changePercent": 1.66,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-19T02:44:32.276Z"
+    },
+    {
+      "symbol": "CNY=X",
+      "label": "美元/人民币",
+      "region": "fx",
+      "price": 6.8164,
+      "change": 0,
+      "changePercent": -0.02,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-19T02:44:32.322Z"
+    }
+  ],
+  "sparklines": [
+    {
+      "symbol": "^GSPC",
+      "closes": [
+        6824.66015625,
+        6816.89013671875,
+        6886.240234375,
+        6967.3798828125,
+        7022.9501953125,
+        7041.27978515625,
+        7126.06005859375
+      ]
+    },
+    {
+      "symbol": "^IXIC",
+      "closes": [
+        22822.419921875,
+        22902.890625,
+        23183.740234375,
+        23639.080078125,
+        24016.01953125,
+        24102.69921875,
+        24468.48046875
+      ]
+    },
+    {
+      "symbol": "^DJI",
+      "closes": [
+        48185.80078125,
+        47916.5703125,
+        48218.25,
+        48535.98828125,
+        48463.71875,
+        48578.71875,
+        49447.4296875
+      ]
+    },
+    {
+      "symbol": "^FTSE",
+      "closes": [
+        10603.5,
+        10600.5,
+        10583,
+        10609.099609375,
+        10559.599609375,
+        10590,
+        10667.599609375
+      ]
+    },
+    {
+      "symbol": "^GDAXI",
+      "closes": [
+        23806.990234375,
+        23803.94921875,
+        23742.439453125,
+        24044.220703125,
+        24066.69921875,
+        24154.470703125,
+        24702.240234375
+      ]
+    },
+    {
+      "symbol": "^N225",
+      "closes": [
+        55895.3203125,
+        56924.109375,
+        56502.76953125,
+        57877.390625,
+        58134.23828125,
+        59518.33984375,
+        58475.8984375
+      ]
+    },
+    {
+      "symbol": "000001.SS",
+      "closes": [
+        3966.1708984375,
+        3986.22509765625,
+        3988.55810546875,
+        4026.625,
+        4027.208984375,
+        4055.547119140625,
+        4051.425048828125
+      ]
+    },
+    {
+      "symbol": "000300.SS",
+      "closes": [
+        4566.22021484375,
+        4636.56982421875,
+        4646.16015625,
+        4701.27978515625,
+        4685.25,
+        4736.60986328125,
+        4728.669921875
+      ]
+    },
+    {
+      "symbol": "399001.SZ",
+      "closes": [
+        13996.26953125,
+        14309.4697265625,
+        14407.8603515625,
+        14639.9501953125,
+        14498.4599609375,
+        14796.330078125,
+        14885.419921875
+      ]
+    },
+    {
+      "symbol": "^HSI",
+      "closes": [
+        25752.400390625,
+        25893.5390625,
+        25660.849609375,
+        25872.3203125,
+        25947.3203125,
+        26394.259765625,
+        26160.330078125
+      ]
+    },
+    {
+      "symbol": "^HSCE",
+      "closes": [
+        8611.830078125,
+        8655.0400390625,
+        8602.0595703125,
+        8671.6103515625,
+        8718.259765625,
+        8905.1103515625,
+        8845.01953125
+      ]
+    },
+    {
+      "symbol": "^HSTECH",
+      "closes": []
+    },
+    {
+      "symbol": "BZ=F",
+      "closes": [
+        95.91999816894531,
+        95.19999694824219,
+        99.36000061035156,
+        94.79000091552734,
+        94.93000030517578,
+        99.38999938964844,
+        90.37999725341797
+      ]
+    },
+    {
+      "symbol": "GC=F",
+      "closes": [
+        4792.2001953125,
+        4761.89990234375,
+        4742.39990234375,
+        4825,
+        4800,
+        4785.39990234375,
+        4857.60009765625
+      ]
+    },
+    {
+      "symbol": "CNY=X",
+      "closes": [
+        6.831399917602539,
+        6.8277997970581055,
+        6.8302998542785645,
+        6.815700054168701,
+        6.817999839782715,
+        6.821100234985352,
+        6.816400051116943
+      ]
+    }
+  ],
+  "macro": [
+    {
+      "seriesId": "FEDFUNDS",
+      "label": "联邦基金利率",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-19T02:44:31.828Z"
+    },
+    {
+      "seriesId": "CPIAUCSL",
+      "label": "CPI (美国)",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-19T02:44:31.966Z"
+    },
+    {
+      "seriesId": "UNRATE",
+      "label": "失业率 (美国)",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-19T02:44:32.172Z"
+    }
+  ],
+  "news": [
+    {
+      "query": "US Top News",
+      "title": "Iran says Strait of Hormuz is closed again as vessels attempting to cross come under fire",
+      "description": "Iranian officials say they have closed the strait because of the U.S.'s ongoing blockade of its ports.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/18/trump-says-us-has-good-news-on-iran-talks-to-continue.html",
+      "publishedAt": "2026-04-18T22:24:21.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "We spoke to over 30 central bankers, policymakers and politicians. Here are their top concerns",
+      "description": "From stagflation to energy security, policymakers spoke to CNBC about the biggest risks arising from the ongoing U.S.-Iran war. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/18/iran-war-inflation-prices-energy-trump-economy-end.html",
+      "publishedAt": "2026-04-18T10:24:36.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Berkshire shares left behind as S&amp;P 500 rallies to record high",
+      "description": "While the overall market was soaring over the past two weeks, Berkshire wasn't doing much of anything, as its shares slipped to MTD drops of just under 1%.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/18/berkshire-shares-left-behind-as-sp-500-rallies-to-record-high.html",
+      "publishedAt": "2026-04-18T12:56:03.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Nvidia&apos;s once-tight bond with gamers is cracking over AI, &apos;and that breaks my heart&apos;",
+      "description": "Gamers once helped save Nvidia from bankruptcy. Now they feel left behind as the memory crunch drives focus to AI chips and DLSS 5 disrupts game design.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/18/nvidia-ai-backlash-gamers-geforce-gpu.html",
+      "publishedAt": "2026-04-18T12:00:01.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "No escape: U.S.-Iran war, $4 gas, have taken all the fun out of consumer spending",
+      "description": "Consumers are still spending amid U.S.-Iran war and $4 gas prices, but there's a pullback at entertainment and dining venues hitting local economies hard.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/18/iran-war-gas-prices-consumer-spending-economy.html",
+      "publishedAt": "2026-04-18T21:42:07.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "These chipmakers and other stocks are overbought after the market rally this week",
+      "description": "Investors should be on the lookout for pullbacks in rallying chipmakers and other stocks after the market's advance.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/18/these-chipmakers-are-overbought-after-the-market-rally-this-week.html",
+      "publishedAt": "2026-04-18T12:38:51.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "&apos;It&apos;s just scale&apos;: Local mom-and-pop car dealerships are growing or dying amid industry consolidation, rise of mega-retailers",
+      "description": "Multibillion-dollar dealerships have been on the rise amid a decadeslong consolidation that has led to a grow-or-die mentality for many U.S. auto retailers.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/18/car-dealerships-auto-retail.html",
+      "publishedAt": "2026-04-18T12:00:01.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Kevin Warsh wants to lead a scandal-ridden Fed. His wealth is a complication",
+      "description": "Sen. Elizabeth Warren, D-Mass., is calling attention to potential issues in the Fed chair nominee's financial disclosures.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/16/fed-kevin-warsh-elizabeth-warren-financial-disclosures.html",
+      "publishedAt": "2026-04-17T17:06:10.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Mortgage rates show signs of falling after Iran war peak",
+      "description": "Major lenders make rate reductions as markets take some heart from a possible truce in the Iran war.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cwyx2q86lgpo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-17T23:33:10.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "'I'm the lucky one' - more than one in three young men now live with their parents",
+      "description": "Last year, the highest proportion of men aged 20-34 were still living at home since at least 2007 as the rising cost of living takes hold.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/ce3578g32d0o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-17T23:16:33.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Oil prices plunge as Iran says Strait of Hormuz 'open' during ceasefire",
+      "description": "Brent crude sinks by a tenth after Iran says the key waterway is open for commercial ships for the rest of the ceasefire.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/ckg045z73z1o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-18T06:06:38.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Finance ministers and top bankers raise serious concerns about Mythos AI model",
+      "description": "Experts say Mythos potentially has an unprecedented ability to identify and exploit cyber-security weaknesses.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c2ev24yx4rmo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-17T10:22:46.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "UK petrol and diesel prices fall after weeks of rises",
+      "description": "Drivers have seen weeks of increases as the US-Israeli war with Iran pushed up wholesale oil prices.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cx2w17pq7v0o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-17T11:42:41.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Tinder and Zoom offer 'proof of humanity' eye-scans to combat AI",
+      "description": "The tech aims to identify people's irises and stop the rise of fake accounts and malicious scams.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cp9vppem4evo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-17T19:05:43.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Rising value of Pokémon cards sparks smash and grab crime spree",
+      "description": "Small shops across the UK are being targeted by thieves stealing collectibles worth thousands of pounds.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c4gvvnpl5kno?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-16T23:01:59.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Could a digital twin make you into a 'superworker'?",
+      "description": "Firms say digital twins make staff more productive, but are they a potential legal minefield?",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c1d907lq6nyo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-16T23:04:15.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Here are 3 forces that drove a remarkable, record-setting week on Wall Street",
+      "description": "The S&P 500 closed above 7,100 for the first time as it completed its fastest turnaround since 1990. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/18/the-3-forces-that-drove-a-remarkable-record-setting-week-on-wall-street.html",
+      "publishedAt": "2026-04-18T14:13:04.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Nvidia&apos;s once-tight bond with gamers is cracking over AI, &apos;and that breaks my heart&apos;",
+      "description": "Gamers once helped save Nvidia from bankruptcy. Now they feel left behind as the memory crunch drives focus to AI chips and DLSS 5 disrupts game design.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/18/nvidia-ai-backlash-gamers-geforce-gpu.html",
+      "publishedAt": "2026-04-18T12:00:01.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Jim Cramer on the market&apos;s &apos;remarkable&apos; rally — and what to watch in a big earnings week ahead",
+      "description": "Jim Cramer says this is one of the most \"remarkable\" rallies he's seen, and provides guidance for the week ahead. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/17/jim-cramer-remarkable-rally-what-to-watch-ahead.html",
+      "publishedAt": "2026-04-18T00:42:17.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "OpenAI loses multiple executives in latest leadership shakeup",
+      "description": "Their exits come just weeks after Fidji Simo, OpenAI's product and business chief, announced she would take a medical leave. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/17/openai-executives-leave.html",
+      "publishedAt": "2026-04-17T23:45:15.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Perspective: AI demand is inflated, and only Anthropic is being realistic",
+      "description": "The main usage metric for artificial intelligence, called tokens, looks explosive on paper, but it may be significantly overstated. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/17/ai-tokens-anthropic-openai-nvidia.html",
+      "publishedAt": "2026-04-17T19:10:15.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
+      "description": "Cerebras said that it can expand its business with OpenAI over the coming years and that it gave OpenAI a warrant to purchase stock.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/17/cerebras-new-ipo-ai-chips.html",
+      "publishedAt": "2026-04-17T23:23:42.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Trump says he had &apos;no idea&apos; Anthropic&apos;s Amodei met with White House about Mythos",
+      "description": "The meeting comes less than two months after President Donald Trump blacklisted Anthropic's Claude.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/17/anthropic-dario-amodei-trump-mythos.html",
+      "publishedAt": "2026-04-17T23:22:57.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "AMD, Oracle, Microsoft and the IGV lead a monster week for tech stocks",
+      "description": "Oracle, AMD and Microsoft had major benchmarks, while Intel, Broadcom, Micron, Marvell and ON Semiconductor have all roared in April.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/17/big-tech-stocks-winning-streaks-oracle-amd-microsoft-igv-.html",
+      "publishedAt": "2026-04-17T23:15:41.000Z"
+    }
+  ],
+  "chinaNews": [
+    {
+      "query": "财经要闻",
+      "title": "卖方首席转型为董秘！5年时间，一笔投资爆赚2200倍，赚了27亿",
+      "description": "来源：金石杂谈 4月19日消息，新股造富的消息持续刷屏，近期大普微实现创业板上市，它也成为创业板启用第三套标准后首家为实现盈利的上市企业。",
+      "source": "市场资讯",
+      "url": "https://finance.sina.com.cn/stock/s/2026-04-19/doc-inhuyvre0763857.shtml",
+      "publishedAt": "2026-04-19T02:20:00.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "伊朗外交部说霍尔木兹海峡无条件过境通行“已成历史”",
+      "description": "新华社德黑兰4月19日电（记者陈霄 沙达提）伊朗外交部发言人巴加埃19日凌晨说，在美国和以色列的侵略将美国军事力量带入海峡周边那一刻...",
+      "source": "新华视点",
+      "url": "https://finance.sina.com.cn/world/2026-04-19/doc-inhuyvrk1660762.shtml",
+      "publishedAt": "2026-04-19T01:55:01.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "孟加拉国将国内零售燃油价格上调10%至15%",
+      "description": " 孟加拉国能源部周六晚间发布声明，受中东持续冲突导致国际原油价格暴涨、供应趋紧影响，孟加拉国将国内零售燃油价格上调10%至15%。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-19/doc-inhuyvrh4879074.shtml",
+      "publishedAt": "2026-04-19T01:43:35.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "视频|通策医疗业绩增长几乎停滞，6亿跨界眼科是布局还是救火高溢价关联收购再掀波澜",
+      "description": "",
+      "source": "市场资讯",
+      "url": "https://finance.sina.com.cn/stock/roll/2026-04-19/doc-inhuyvrk1655904.shtml",
+      "publishedAt": "2026-04-19T01:42:32.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "游戏玩家深感被遗忘 英伟达最新游戏显卡产能将缩减最高40%",
+      "description": "三十年来，除非你是游戏玩家，否则英伟达在大众眼中默默无闻。如今，人工智能浪潮让这家芯片企业一跃成为全球市值最高公司，而它最初的粉丝群体——游戏玩家...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-19/doc-inhuyvrk1647671.shtml",
+      "publishedAt": "2026-04-19T01:13:04.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "卖方首席转型为董秘！5年时间，一笔投资爆赚2200倍，赚了27亿",
+      "description": "来源：金石杂谈 4月19日消息，新股造富的消息持续刷屏，近期大普微实现创业板上市，它也成为创业板启用第三套标准后首家为实现盈利的上市企业。",
+      "source": "市场资讯",
+      "url": "https://finance.sina.com.cn/stock/s/2026-04-19/doc-inhuyvre0763857.shtml",
+      "publishedAt": "2026-04-19T02:20:00.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "吉祥航空的扩张赌局，东航先撤了",
+      "description": "【资本滩】24小时追并购风云，拆解万亿交易暗战，一眼锁定谁是资本猎物。 ‘终究是场试验。’ 吉祥航空（603885.SH，下称“公司”）与东航的“分家”，或进入尾声。",
+      "source": "投资者报",
+      "url": "https://finance.sina.com.cn/stock/roll/2026-04-19/doc-inhuyvrh4888458.shtml",
+      "publishedAt": "2026-04-19T02:03:58.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "孟加拉国将国内零售燃油价格上调10%至15%",
+      "description": " 孟加拉国能源部周六晚间发布声明，受中东持续冲突导致国际原油价格暴涨、供应趋紧影响，孟加拉国将国内零售燃油价格上调10%至15%。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-19/doc-inhuyvrh4879074.shtml",
+      "publishedAt": "2026-04-19T01:43:35.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "视频|通策医疗业绩增长几乎停滞，6亿跨界眼科是布局还是救火高溢价关联收购再掀波澜",
+      "description": "",
+      "source": "市场资讯",
+      "url": "https://finance.sina.com.cn/stock/roll/2026-04-19/doc-inhuyvrk1655904.shtml",
+      "publishedAt": "2026-04-19T01:42:32.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "伊朗封锁霍尔木兹海峡 谈判前景难料",
+      "description": "伊朗伊斯兰革命卫队海军18日发表声明称，由于美国违反停火承诺，未解除对伊朗港口和船只的海上封锁，因此从当天傍晚起封锁霍尔木兹海峡。",
+      "source": "央视新闻客户端",
+      "url": "https://finance.sina.com.cn/roll/2026-04-19/doc-inhuyvrk1658249.shtml",
+      "publishedAt": "2026-04-19T01:29:00.000Z"
+    }
+  ]
+}
