@@ -1,0 +1,641 @@
+{
+  "date": "2026-04-22",
+  "fetchedAt": "2026-04-21T20:54:03.396Z",
+  "markets": [
+    {
+      "symbol": "^GSPC",
+      "label": "标普500",
+      "region": "us",
+      "price": 7064.01,
+      "change": -62.05,
+      "changePercent": -0.87,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-21T20:54:00.302Z"
+    },
+    {
+      "symbol": "^IXIC",
+      "label": "纳斯达克",
+      "region": "us",
+      "price": 24259.965,
+      "change": -208.51,
+      "changePercent": -0.85,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-21T20:54:00.343Z"
+    },
+    {
+      "symbol": "^DJI",
+      "label": "道琼斯",
+      "region": "us",
+      "price": 49149.38,
+      "change": -298.05,
+      "changePercent": -0.6,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-21T20:54:00.378Z"
+    },
+    {
+      "symbol": "^FTSE",
+      "label": "富时100",
+      "region": "uk",
+      "price": 10498.09,
+      "change": -169.51,
+      "changePercent": -1.59,
+      "currency": "GBP",
+      "marketState": null,
+      "fetchedAt": "2026-04-21T20:54:00.411Z"
+    },
+    {
+      "symbol": "^GDAXI",
+      "label": "德国DAX",
+      "region": "eu",
+      "price": 24270.87,
+      "change": -431.37,
+      "changePercent": -1.75,
+      "currency": "EUR",
+      "marketState": null,
+      "fetchedAt": "2026-04-21T20:54:00.444Z"
+    },
+    {
+      "symbol": "^N225",
+      "label": "日经225",
+      "region": "jp",
+      "price": 59349.17,
+      "change": 873.27,
+      "changePercent": 1.49,
+      "currency": "JPY",
+      "marketState": null,
+      "fetchedAt": "2026-04-21T20:54:00.473Z"
+    },
+    {
+      "symbol": "000001.SS",
+      "label": "上证指数",
+      "region": "cn",
+      "price": 4085.0767,
+      "change": 33.65,
+      "changePercent": 0.83,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-21T20:54:00.503Z"
+    },
+    {
+      "symbol": "000300.SS",
+      "label": "沪深300",
+      "region": "cn",
+      "price": 4767.997,
+      "change": 39.33,
+      "changePercent": 0.83,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-21T20:54:00.572Z"
+    },
+    {
+      "symbol": "399001.SZ",
+      "label": "深证成指",
+      "region": "cn",
+      "price": 14982.14,
+      "change": 96.72,
+      "changePercent": 0.65,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-21T20:54:00.617Z"
+    },
+    {
+      "symbol": "^HSI",
+      "label": "恒生指数",
+      "region": "hk",
+      "price": 26487.48,
+      "change": 327.15,
+      "changePercent": 1.25,
+      "currency": "HKD",
+      "marketState": null,
+      "fetchedAt": "2026-04-21T20:54:00.646Z"
+    },
+    {
+      "symbol": "^HSCE",
+      "label": "恒生中国企业",
+      "region": "hk",
+      "price": 8943.54,
+      "change": 98.52,
+      "changePercent": 1.11,
+      "currency": "HKD",
+      "marketState": null,
+      "fetchedAt": "2026-04-21T20:54:00.677Z"
+    },
+    {
+      "symbol": "^HSTECH",
+      "label": "恒生科技",
+      "region": "hk",
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "currency": null,
+      "marketState": null,
+      "fetchedAt": "2026-04-21T20:54:00.710Z"
+    },
+    {
+      "symbol": "BZ=F",
+      "label": "布伦特原油",
+      "region": "commodity",
+      "price": 93.99,
+      "change": 3.61,
+      "changePercent": 3.99,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-21T20:54:00.772Z"
+    },
+    {
+      "symbol": "GC=F",
+      "label": "COMEX黄金",
+      "region": "commodity",
+      "price": 4729.9,
+      "change": -127.7,
+      "changePercent": -2.63,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-21T20:54:00.802Z"
+    },
+    {
+      "symbol": "CNY=X",
+      "label": "美元/人民币",
+      "region": "fx",
+      "price": 6.8203,
+      "change": 0,
+      "changePercent": -0.01,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-21T20:54:00.867Z"
+    }
+  ],
+  "sparklines": [
+    {
+      "symbol": "^GSPC",
+      "closes": [
+        6886.240234375,
+        6967.3798828125,
+        7022.9501953125,
+        7041.27978515625,
+        7126.06005859375,
+        7109.14013671875,
+        7064.009765625
+      ]
+    },
+    {
+      "symbol": "^IXIC",
+      "closes": [
+        23183.740234375,
+        23639.080078125,
+        24016.01953125,
+        24102.69921875,
+        24468.48046875,
+        24404.390625,
+        24259.96484375
+      ]
+    },
+    {
+      "symbol": "^DJI",
+      "closes": [
+        48218.25,
+        48535.98828125,
+        48463.71875,
+        48578.71875,
+        49447.4296875,
+        49442.55859375,
+        49149.37890625
+      ]
+    },
+    {
+      "symbol": "^FTSE",
+      "closes": [
+        10583,
+        10609.099609375,
+        10559.599609375,
+        10590,
+        10667.599609375,
+        10609.099609375,
+        10498.08984375
+      ]
+    },
+    {
+      "symbol": "^GDAXI",
+      "closes": [
+        23742.439453125,
+        24044.220703125,
+        24066.69921875,
+        24154.470703125,
+        24702.240234375,
+        24417.80078125,
+        24270.869140625
+      ]
+    },
+    {
+      "symbol": "^N225",
+      "closes": [
+        56502.76953125,
+        57877.390625,
+        58134.23828125,
+        59518.33984375,
+        58475.8984375,
+        58824.890625
+      ]
+    },
+    {
+      "symbol": "000001.SS",
+      "closes": [
+        3988.55810546875,
+        4026.625,
+        4027.208984375,
+        4055.547119140625,
+        4051.425048828125,
+        4082.126953125
+      ]
+    },
+    {
+      "symbol": "000300.SS",
+      "closes": [
+        4646.16015625,
+        4701.27978515625,
+        4685.25,
+        4736.60986328125,
+        4728.669921875,
+        4757.43994140625
+      ]
+    },
+    {
+      "symbol": "399001.SZ",
+      "closes": [
+        14407.8603515625,
+        14639.9501953125,
+        14498.4599609375,
+        14796.330078125,
+        14885.419921875,
+        14966.75
+      ]
+    },
+    {
+      "symbol": "^HSI",
+      "closes": [
+        25660.849609375,
+        25872.3203125,
+        25947.3203125,
+        26394.259765625,
+        26160.330078125,
+        26361.0703125
+      ]
+    },
+    {
+      "symbol": "^HSCE",
+      "closes": [
+        8602.0595703125,
+        8671.6103515625,
+        8718.259765625,
+        8905.1103515625,
+        8845.01953125,
+        8899.0595703125
+      ]
+    },
+    {
+      "symbol": "^HSTECH",
+      "closes": []
+    },
+    {
+      "symbol": "BZ=F",
+      "closes": [
+        99.36000061035156,
+        94.79000091552734,
+        94.93000030517578,
+        99.38999938964844,
+        90.37999725341797,
+        95.4800033569336,
+        93.98999786376953
+      ]
+    },
+    {
+      "symbol": "GC=F",
+      "closes": [
+        4742.39990234375,
+        4825,
+        4800,
+        4785.39990234375,
+        4857.60009765625,
+        4806.60009765625,
+        4729.89990234375
+      ]
+    },
+    {
+      "symbol": "CNY=X",
+      "closes": [
+        6.8277997970581055,
+        6.8302998542785645,
+        6.815700054168701,
+        6.817999839782715,
+        6.821100234985352,
+        6.816999912261963,
+        6.820300102233887
+      ]
+    }
+  ],
+  "macro": [
+    {
+      "seriesId": "FEDFUNDS",
+      "label": "联邦基金利率",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-21T20:54:00.305Z"
+    },
+    {
+      "seriesId": "CPIAUCSL",
+      "label": "CPI (美国)",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-21T20:54:00.365Z"
+    },
+    {
+      "seriesId": "UNRATE",
+      "label": "失业率 (美国)",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-21T20:54:00.407Z"
+    }
+  ],
+  "news": [
+    {
+      "query": "US Top News",
+      "title": "Trump extends ceasefire in Iran, citing &apos;seriously fractured&apos; Iranian government",
+      "description": "Trump's announcement came after an expected trip by Vice President JD Vance to Pakistan for a peace talks with Iranian officials was put on hold.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/21/trump-iran-war-ceasefire.html",
+      "publishedAt": "2026-04-21T20:40:32.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Analysis: Warsh emerges from a difficult hearing with his Fed &apos;regime-change&apos; plan intact",
+      "description": "The Fed chair faced many questions about his finances, but few about his plan to overhaul the central bank.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/21/kevin-warsh-fed-regime-change-senate-confirmation-hearing.html",
+      "publishedAt": "2026-04-21T19:57:56.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Trump says &apos;I&apos;ll remember&apos; companies that don’t seek tariff refunds",
+      "description": "Trump said he was \"not happy with the Supreme Court\" for ruling IEEPA tariffs were illegal, and for not allowing the U.S. to keep tariffs already collected.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/21/trump-says-hell-remember-companies-that-dont-seek-tariff-refund.html",
+      "publishedAt": "2026-04-21T14:34:02.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "United Airlines slashes 2026 forecast as fuel costs surge",
+      "description": "The carrier's first-quarter earnings topped Wall Street's expectations.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/21/united-airlines-ual-q1-2026-earnings.html",
+      "publishedAt": "2026-04-21T20:04:16.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "These stocks may rip if the Iran conflict is resolved, UBS says",
+      "description": "The bank quantified the impact on individual stocks of the Iran war using a scoring system. Some companies stand to be ceasefire winners.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/21/these-stocks-may-rip-if-the-iran-conflict-is-resolved-ubs-says.html",
+      "publishedAt": "2026-04-21T20:16:26.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Polymarket launches trading of heavily leveraged &apos;perps&apos; contracts",
+      "description": "Prediction markets platform Polymarket is expanding into trading of perpetual futures contacts, the company said Tuesday.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/21/polymarket-launches-trading-of-heavily-leveraged-perps-contracts.html",
+      "publishedAt": "2026-04-21T20:35:24.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Amazon launches GLP-1 weight loss program, promising &apos;fast, convenient&apos; access",
+      "description": "Through Amazon Pharmacy, patients will be able to access medications including Novo Nordisk's Wegovy as well as newer oral GLP-1 options.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/21/amazon-glp-1-weight-loss-program.html",
+      "publishedAt": "2026-04-21T18:27:58.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Tim Cook turned Apple into a $4 trillion juggernaut by not trying to be Steve Jobs",
+      "description": "Tim Cook's 15-year tenure at the helm of Apple was highly profitable for Wall Street, as the company's market cap swelled from $350 billion to $4 trillion. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/21/tim-cook-apple-steve-jobs-legacy.html",
+      "publishedAt": "2026-04-21T17:29:36.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Unemployment rate unexpectedly falls as fewer students look for work",
+      "description": "The drop has been largely driven by a rise in the number of people not actively seeking work.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cjd84pkkjgpo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-21T14:52:39.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "From Epstein to sock puppets: Key takeaways from Kevin Warsh's Fed confirmation hearing",
+      "description": "He denied making a deal with Donald Trump on interest rates and backed \"policy regime change\" at the central bank.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c8dl3ez4mpno?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-21T18:59:39.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "OpenAI faces criminal probe over role of ChatGPT in shooting",
+      "description": "The firm, co-founded by Sam Altman, said it is \"not responsible\" for the attack at Florida State University",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c62j4ldp2jqo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-21T19:15:34.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Royal Mail to ask part-time posties to work more to meet letter targets",
+      "description": "Royal Mail has faced a chorus of criticism for failing to meet its targets on letter delivery.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c98m048d441o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-21T11:31:45.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Air fares soar by nearly 25% as Iran war forces flights to re-route",
+      "description": "Airspace restrictions caused by the conflict sent plane ticket prices higher, research shows.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/crr14qplxe8o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-21T16:57:34.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "The 'dumb machine' promising a clean energy breakthrough",
+      "description": "A stellarator is difficult to build, but could it be the best way to make fusion energy work?",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c5yvm11xrn6o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-20T23:09:41.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "New era as Apple names new boss to replace Tim Cook after 15 years",
+      "description": "Ternus will take over running the technology giant in September as Cook steps up to become executive chairman.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c1kr19lry18o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-21T05:57:56.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Petrol thefts surge as Iran war pushes up fuel costs",
+      "description": "One petrol retailer says he is experiencing about five drive-offs a week at each forecourt, costing him thousands.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cx2drmm1mglo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-21T08:59:03.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Why Tim Cook stepping down as CEO isn&apos;t shaking Jim Cramer&apos;s faith in Apple",
+      "description": "Cramer isn't alone in his optimism: several Wall Street firms issued positive notes after the succession announcement.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/21/why-tim-cook-stepping-down-as-ceo-isnt-shaking-cramers-faith-in-apple.html",
+      "publishedAt": "2026-04-21T18:36:31.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Amazon launches GLP-1 weight loss program, promising &apos;fast, convenient&apos; access",
+      "description": "Through Amazon Pharmacy, patients will be able to access medications including Novo Nordisk's Wegovy as well as newer oral GLP-1 options.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/21/amazon-glp-1-weight-loss-program.html",
+      "publishedAt": "2026-04-21T18:27:58.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "New Apple CEO John Ternus doubted himself when he started: &apos;I wasn&apos;t sure I belonged&apos;",
+      "description": "Incoming CEO John Ternus said he was \"lucky\" to have worked under Apple founder Steve Jobs and considers Tim Cook his mentor.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/21/john-ternus-apple-ceo.html",
+      "publishedAt": "2026-04-21T17:43:48.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Microsoft cuts Game Pass subscription prices after new Xbox CEO promises to &apos;recommit&apos; to gamers",
+      "description": "Microsoft's new gaming leader, Asha Sharma, is making the Xbox flagship subscription more affordable. But it won't have every game at launch.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/21/microsoft-game-pass-ultimate-subscription-price-cut.html",
+      "publishedAt": "2026-04-21T19:49:17.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Tim Cook turned Apple into a $4 trillion juggernaut by not trying to be Steve Jobs",
+      "description": "Tim Cook's 15-year tenure at the helm of Apple was highly profitable for Wall Street, as the company's market cap swelled from $350 billion to $4 trillion. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/21/tim-cook-apple-steve-jobs-legacy.html",
+      "publishedAt": "2026-04-21T17:29:36.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Trump says Anthropic is shaping up and a deal is &apos;possible&apos; for Department of Defense use",
+      "description": "Trump said his administration had \"some very good talks\" with Anthropic during a meeting at the White House last week.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/21/trump-anthropic-department-defense-deal.html",
+      "publishedAt": "2026-04-21T18:25:59.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Apple&apos;s next CEO, Warsh&apos;s confirmation hearing, the psychedelic stock surge and more in Morning Squawk",
+      "description": "Here are five key things investors need to know to start the trading day.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/21/5-things-to-know-before-the-market-opens.html",
+      "publishedAt": "2026-04-21T12:22:54.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Amazon adding heavy-duty EV trucks from Einride as it spreads bets on freight decarbonization",
+      "description": "Amazon is adding heavy-duty EV trucks from Einride to existing deals for freight electrification with Rivian, Mercedes, as it spreads its climate bets.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/21/amazon-einride-ev-trucks-freight-electrification.html",
+      "publishedAt": "2026-04-21T12:08:45.000Z"
+    }
+  ],
+  "chinaNews": [
+    {
+      "query": "财经要闻",
+      "title": "Adobe宣布250亿美元股票回购计划 此前AI颠覆担忧拖累股价",
+      "description": "Adobe未来四年内将回购多达250亿美元股票，此前人工智能颠覆担忧导致该股股价下跌。 这项新的授权“直接体现了我们对强劲现金流以及为投资者创造长期价值的信心...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-22/doc-inhvihns6414241.shtml",
+      "publishedAt": "2026-04-21T20:42:59.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "4月22日热门中概股多数下跌 台积电涨0.5%，拼多多跌5%",
+      "description": "4月22日热门中概股多数下跌，纳斯达克中国金龙指数（HXC）收跌2.60%。 上涨股（按市值从高到低）：台积电涨0.50%，日月光半导体涨1.09%，中通涨0.91%，中国新城农村涨3...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-22/doc-inhviaeu6543484.shtml",
+      "publishedAt": "2026-04-21T20:33:30.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "特朗普延长对伊停火，称伊朗政府 “严重分裂”",
+      "description": "美国总统特朗普于周二宣布延长美国对伊朗的停火，称鉴于德黑兰政府 “严重分裂”，延长停火实属必要。 特朗普表示，停火将持续 “直至” 伊朗领导人及代表提交一份结束与美国...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-22/doc-inhviaew4708837.shtml",
+      "publishedAt": "2026-04-21T20:23:28.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "伊朗通过巴基斯坦告知美国 将不会参加周三的会谈",
+      "description": " 据半官方的塔斯尼姆通讯社援引消息人士报道，伊朗谈判团队已通过巴基斯坦中间人告知美方，伊朗将不会出席周三在伊斯兰堡举行的会谈。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-22/doc-inhviaeq5909574.shtml",
+      "publishedAt": "2026-04-21T20:19:59.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "万斯取消前往巴基斯坦的行程 美伊和谈前景扑朔迷离",
+      "description": "美伊和平谈判进展周二陷入停滞，有报道称伊朗官员拒绝出席，美国副总统JD·万斯推迟了原定前往巴基斯坦的行程。 伊朗通过调解人巴基斯坦告知美国...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-22/doc-inhviaes9763862.shtml",
+      "publishedAt": "2026-04-21T20:19:39.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "Adobe宣布250亿美元股票回购计划 此前AI颠覆担忧拖累股价",
+      "description": "Adobe未来四年内将回购多达250亿美元股票，此前人工智能颠覆担忧导致该股股价下跌。 这项新的授权“直接体现了我们对强劲现金流以及为投资者创造长期价值的信心...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-22/doc-inhvihns6414241.shtml",
+      "publishedAt": "2026-04-21T20:42:59.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "4月22日热门中概股多数下跌 台积电涨0.5%，拼多多跌5%",
+      "description": "4月22日热门中概股多数下跌，纳斯达克中国金龙指数（HXC）收跌2.60%。 上涨股（按市值从高到低）：台积电涨0.50%，日月光半导体涨1.09%，中通涨0.91%，中国新城农村涨3...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-22/doc-inhviaeu6543484.shtml",
+      "publishedAt": "2026-04-21T20:33:30.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "特朗普延长对伊停火，称伊朗政府 “严重分裂”",
+      "description": "美国总统特朗普于周二宣布延长美国对伊朗的停火，称鉴于德黑兰政府 “严重分裂”，延长停火实属必要。 特朗普表示，停火将持续 “直至” 伊朗领导人及代表提交一份结束与美国...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-22/doc-inhviaew4708837.shtml",
+      "publishedAt": "2026-04-21T20:23:28.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "伊朗通过巴基斯坦告知美国 将不会参加周三的会谈",
+      "description": " 据半官方的塔斯尼姆通讯社援引消息人士报道，伊朗谈判团队已通过巴基斯坦中间人告知美方，伊朗将不会出席周三在伊斯兰堡举行的会谈。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-22/doc-inhviaeq5909574.shtml",
+      "publishedAt": "2026-04-21T20:19:59.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "万斯取消前往巴基斯坦的行程 美伊和谈前景扑朔迷离",
+      "description": "美伊和平谈判进展周二陷入停滞，有报道称伊朗官员拒绝出席，美国副总统JD·万斯推迟了原定前往巴基斯坦的行程。 伊朗通过调解人巴基斯坦告知美国...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-22/doc-inhviaes9763862.shtml",
+      "publishedAt": "2026-04-21T20:19:39.000Z"
+    }
+  ]
+}
