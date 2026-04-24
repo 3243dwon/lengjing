@@ -1,0 +1,647 @@
+{
+  "date": "2026-04-25",
+  "fetchedAt": "2026-04-24T20:50:34.695Z",
+  "markets": [
+    {
+      "symbol": "^GSPC",
+      "label": "标普500",
+      "region": "us",
+      "price": 7165.08,
+      "change": 101.07,
+      "changePercent": 1.43,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-24T20:50:33.352Z"
+    },
+    {
+      "symbol": "^IXIC",
+      "label": "纳斯达克",
+      "region": "us",
+      "price": 24836.598,
+      "change": 576.64,
+      "changePercent": 2.38,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-24T20:50:33.460Z"
+    },
+    {
+      "symbol": "^DJI",
+      "label": "道琼斯",
+      "region": "us",
+      "price": 49230.71,
+      "change": 81.33,
+      "changePercent": 0.17,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-24T20:50:33.524Z"
+    },
+    {
+      "symbol": "^FTSE",
+      "label": "富时100",
+      "region": "uk",
+      "price": 10379.08,
+      "change": -119.02,
+      "changePercent": -1.13,
+      "currency": "GBP",
+      "marketState": null,
+      "fetchedAt": "2026-04-24T20:50:33.585Z"
+    },
+    {
+      "symbol": "^GDAXI",
+      "label": "德国DAX",
+      "region": "eu",
+      "price": 24128.98,
+      "change": -141.89,
+      "changePercent": -0.58,
+      "currency": "EUR",
+      "marketState": null,
+      "fetchedAt": "2026-04-24T20:50:33.648Z"
+    },
+    {
+      "symbol": "^N225",
+      "label": "日经225",
+      "region": "jp",
+      "price": 59716.18,
+      "change": 367.01,
+      "changePercent": 0.62,
+      "currency": "JPY",
+      "marketState": null,
+      "fetchedAt": "2026-04-24T20:50:33.710Z"
+    },
+    {
+      "symbol": "000001.SS",
+      "label": "上证指数",
+      "region": "cn",
+      "price": 4079.9,
+      "change": -5.18,
+      "changePercent": -0.13,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-24T20:50:33.771Z"
+    },
+    {
+      "symbol": "000300.SS",
+      "label": "沪深300",
+      "region": "cn",
+      "price": 4769.369,
+      "change": 1.37,
+      "changePercent": 0.03,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-24T20:50:33.834Z"
+    },
+    {
+      "symbol": "399001.SZ",
+      "label": "深证成指",
+      "region": "cn",
+      "price": 14940.301,
+      "change": -41.84,
+      "changePercent": -0.28,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-24T20:50:33.900Z"
+    },
+    {
+      "symbol": "^HSI",
+      "label": "恒生指数",
+      "region": "hk",
+      "price": 25978.07,
+      "change": -509.41,
+      "changePercent": -1.92,
+      "currency": "HKD",
+      "marketState": null,
+      "fetchedAt": "2026-04-24T20:50:33.960Z"
+    },
+    {
+      "symbol": "^HSCE",
+      "label": "恒生中国企业",
+      "region": "hk",
+      "price": 8775.62,
+      "change": -167.92,
+      "changePercent": -1.88,
+      "currency": "HKD",
+      "marketState": null,
+      "fetchedAt": "2026-04-24T20:50:34.023Z"
+    },
+    {
+      "symbol": "^HSTECH",
+      "label": "恒生科技",
+      "region": "hk",
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "currency": null,
+      "marketState": null,
+      "fetchedAt": "2026-04-24T20:50:34.083Z"
+    },
+    {
+      "symbol": "BZ=F",
+      "label": "布伦特原油",
+      "region": "commodity",
+      "price": 100.09,
+      "change": 1.61,
+      "changePercent": 1.63,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-24T20:50:34.151Z"
+    },
+    {
+      "symbol": "GC=F",
+      "label": "COMEX黄金",
+      "region": "commodity",
+      "price": 4722.5,
+      "change": 24.1,
+      "changePercent": 0.51,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-24T20:50:34.213Z"
+    },
+    {
+      "symbol": "CNY=X",
+      "label": "美元/人民币",
+      "region": "fx",
+      "price": 6.8354,
+      "change": 0.02,
+      "changePercent": 0.26,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-24T20:50:34.278Z"
+    }
+  ],
+  "sparklines": [
+    {
+      "symbol": "^GSPC",
+      "closes": [
+        7041.27978515625,
+        7126.06005859375,
+        7109.14013671875,
+        7064.009765625,
+        7137.89990234375,
+        7108.39990234375,
+        7165.080078125
+      ]
+    },
+    {
+      "symbol": "^IXIC",
+      "closes": [
+        24102.69921875,
+        24468.48046875,
+        24404.390625,
+        24259.9609375,
+        24657.5703125,
+        24438.5,
+        24836.59765625
+      ]
+    },
+    {
+      "symbol": "^DJI",
+      "closes": [
+        48578.71875,
+        49447.4296875,
+        49442.55859375,
+        49149.37890625,
+        49490.03125,
+        49310.3203125,
+        49230.7109375
+      ]
+    },
+    {
+      "symbol": "^FTSE",
+      "closes": [
+        10590,
+        10667.599609375,
+        10609.099609375,
+        10498.099609375,
+        10476.5,
+        10457,
+        10379.080078125
+      ]
+    },
+    {
+      "symbol": "^GDAXI",
+      "closes": [
+        24154.470703125,
+        24702.240234375,
+        24417.80078125,
+        24270.869140625,
+        24194.900390625,
+        24155.44921875,
+        24128.98046875
+      ]
+    },
+    {
+      "symbol": "^N225",
+      "closes": [
+        58134.23828125,
+        59518.33984375,
+        58475.8984375,
+        58824.890625,
+        59349.171875,
+        59585.859375,
+        59140.23046875
+      ]
+    },
+    {
+      "symbol": "000001.SS",
+      "closes": [
+        4027.208984375,
+        4055.547119140625,
+        4051.425048828125,
+        4082.126953125,
+        4085.076904296875,
+        4106.2578125,
+        4093.25
+      ]
+    },
+    {
+      "symbol": "000300.SS",
+      "closes": [
+        4685.25,
+        4736.60986328125,
+        4728.669921875,
+        4757.43994140625,
+        4768,
+        4799.6298828125,
+        4786.330078125
+      ]
+    },
+    {
+      "symbol": "399001.SZ",
+      "closes": [
+        14498.4599609375,
+        14796.330078125,
+        14885.419921875,
+        14966.75,
+        14982.1396484375,
+        15177.2900390625,
+        15043.4501953125
+      ]
+    },
+    {
+      "symbol": "^HSI",
+      "closes": [
+        25947.3203125,
+        26394.259765625,
+        26160.330078125,
+        26361.0703125,
+        26487.48046875,
+        26163.240234375,
+        25915.19921875
+      ]
+    },
+    {
+      "symbol": "^HSCE",
+      "closes": [
+        8718.259765625,
+        8905.1103515625,
+        8845.01953125,
+        8899.0595703125,
+        8943.5400390625,
+        8801.7802734375,
+        8732.6298828125
+      ]
+    },
+    {
+      "symbol": "^HSTECH",
+      "closes": []
+    },
+    {
+      "symbol": "BZ=F",
+      "closes": [
+        99.38999938964844,
+        90.37999725341797,
+        95.4800033569336,
+        98.4800033569336,
+        101.91000366210938,
+        105.06999969482422,
+        100.08999633789062
+      ]
+    },
+    {
+      "symbol": "GC=F",
+      "closes": [
+        4785.39990234375,
+        4857.60009765625,
+        4806.60009765625,
+        4698.39990234375,
+        4732.5,
+        4705.10009765625,
+        4722.5
+      ]
+    },
+    {
+      "symbol": "CNY=X",
+      "closes": [
+        6.821100234985352,
+        6.816999912261963,
+        6.817399978637695,
+        6.820799827575684,
+        6.82420015335083,
+        6.826000213623047,
+        6.835400104522705
+      ]
+    }
+  ],
+  "macro": [
+    {
+      "seriesId": "FEDFUNDS",
+      "label": "联邦基金利率",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-24T20:50:33.327Z"
+    },
+    {
+      "seriesId": "CPIAUCSL",
+      "label": "CPI (美国)",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-24T20:50:33.483Z"
+    },
+    {
+      "seriesId": "UNRATE",
+      "label": "失业率 (美国)",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-24T20:50:33.590Z"
+    }
+  ],
+  "news": [
+    {
+      "query": "US Top News",
+      "title": "20,000 job cuts at Meta, Microsoft raise concern that AI-driven labor crisis is here",
+      "description": "Meta said it's cutting 10% of its workforce, just as Microsoft announced that it's offering employee buyouts for the first time in its 51-year history. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/24/20k-job-cuts-at-meta-microsoft-raise-concern-of-ai-labor-crisis-.html",
+      "publishedAt": "2026-04-24T18:46:27.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Analysis: The threat to the Fed&apos;s independence isn&apos;t over",
+      "description": "President Donald Trump has waged a long campaign to rein in the Fed. Prosecutors' decision to drop an investigation into Jerome Powell isn't the end.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/24/fed-kevin-warsh-jerome-powell.html",
+      "publishedAt": "2026-04-24T19:28:17.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Google to invest up to $40 billion in Anthropic as search giant spreads its AI bets",
+      "description": "Anthropic said its latest agreement with Google expands on a longstanding partnership between the two companies.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/24/google-to-invest-up-to-40-billion-in-anthropic-as-search-giant-spreads-its-ai-bets.html",
+      "publishedAt": "2026-04-24T18:32:44.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Intel&apos;s stock has best day since 1987, soaring 24% as chipmaker shows signs of a turnaround",
+      "description": "Shares of Intel have more than doubled this year on optimism that backing from the government will help the company's position in AI.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/24/intel-stock-soars-more-than-20percent-as-chipmaker-shows-signs-of-turnaround.html",
+      "publishedAt": "2026-04-24T20:24:15.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "S&amp;P 500, Nasdaq close at records, boosted by Intel, as investors hope for a restart to U.S.-Iran talks",
+      "description": "On Thursday, the Nasdaq Composite suffered its worst daily performance in nearly a month.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/23/stock-market-today-live-updates.html",
+      "publishedAt": "2026-04-24T20:30:30.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "This &apos;sleep like a baby&apos; portfolio strategy is having its best year in nearly a century, BofA&apos;s Hartnett says",
+      "description": "Forget the 60/40 portfolio: Investors have had a much better option this year to get better diversification and stronger returns.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/24/a-sleep-like-a-baby-portfolio-is-having-its-best-year-in-nearly-a-century.html",
+      "publishedAt": "2026-04-24T19:58:22.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Pirro could reopen Fed probe at any time, Democratic senators warn",
+      "description": "Sens. Elizabeth Warren and Dick Durbin, in a letter obtained first by CNBC, question Jeanine Pirro's mention of reopening a probe of Fed Chair Jerome Powell.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/24/fed-powell-pirro-elizabeth-warren-durbin.html",
+      "publishedAt": "2026-04-24T20:28:35.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Will he stay or will he go? With criminal probe over, Fed Chair Powell faces big decision",
+      "description": "The decision could have important ramifications for policymaking at an especially delicate time.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/24/will-he-stay-or-will-he-go-with-criminal-probe-over-fed-chair-powell-faces-big-decision.html",
+      "publishedAt": "2026-04-24T19:19:00.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Stock markets are too high and set to fall, says Bank of England deputy",
+      "description": "It is unusual for a senior figure at the Bank to be so forthright on market movements.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c75kp1y43lgo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-24T09:03:21.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "US justice department drops probe into Fed chairman Jerome Powell",
+      "description": "President Donald Trump had accused Powell of improper cost overruns in renovating the Fed's building.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cdxd1v0028vo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-24T19:10:25.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "How does it affect me if share prices fall?",
+      "description": "Changes in the FTSE 100 and other indexes are not just for financial experts, they can affect our lives.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c33zdz2m1e2o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-24T09:39:48.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "White House memo claims mass AI theft by Chinese firms",
+      "description": "A memo from Michael Kratsios says firms, mainly in China, are wrongfully distilling US AI models.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cpqxgxx9nrqo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-24T00:58:58.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Which airlines are cancelling flights to the UK - and what can you do?",
+      "description": "Airlines are putting up prices and cancelling flights in response to higher jet fuel prices.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cr41yel6v4eo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-24T11:01:58.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "From scientist to silk farmer: India's silk industry renewal",
+      "description": "Silk production is an increasingly high-tech business in India. ",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c0e7le127v5o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-23T23:50:01.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "US soldier charged after winning $400,000 betting on removal of Maduro",
+      "description": "Gannon Ken Van Dyke allegedly made trades on Polymarket on the basis of classified information, the justice department says.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c20832yg5p2o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-24T00:21:32.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Meta to cut one in 10 jobs after spending billions on AI",
+      "description": "The cuts, which employees had been expecting for weeks, will be Meta's largest layoff since 2023.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/crm1y89vek8o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-24T07:31:35.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "How a new Amazon-backed Hollywood production startup deploys AI for speed and cost-cutting",
+      "description": "A new AI-powered hybrid Hollywood startup backed by AWS is betting that cutting-edge production tech can cut costs, speed up filming and bring jobs back to LA.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/24/an-aws-backed-hollywood-startup-deploys-ai-for-speed-and-cost-cutting.html",
+      "publishedAt": "2026-04-24T19:06:39.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Amazon custom chips get a boost from Meta, giving the cloud giant another path to win in AI",
+      "description": "Amazon hits a record high after its new Meta deal highlights how AWS is gaining traction in AI through both cloud capacity and its custom chips.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/24/amazon-custom-chips-get-a-boost-from-meta-giving-the-cloud-giant-another-path-to-win-in-ai.html",
+      "publishedAt": "2026-04-24T19:11:46.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Intel&apos;s stock has best day since 1987, soaring 24% as chipmaker shows signs of a turnaround",
+      "description": "Shares of Intel have more than doubled this year on optimism that backing from the government will help the company's position in AI.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/24/intel-stock-soars-more-than-20percent-as-chipmaker-shows-signs-of-turnaround.html",
+      "publishedAt": "2026-04-24T20:24:15.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Google to invest up to $40 billion in Anthropic as search giant spreads its AI bets",
+      "description": "Anthropic said its latest agreement with Google expands on a longstanding partnership between the two companies.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/24/google-to-invest-up-to-40-billion-in-anthropic-as-search-giant-spreads-its-ai-bets.html",
+      "publishedAt": "2026-04-24T18:32:44.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "20,000 job cuts at Meta, Microsoft raise concern that AI-driven labor crisis is here",
+      "description": "Meta said it's cutting 10% of its workforce, just as Microsoft announced that it's offering employee buyouts for the first time in its 51-year history. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/24/20k-job-cuts-at-meta-microsoft-raise-concern-of-ai-labor-crisis-.html",
+      "publishedAt": "2026-04-24T18:46:27.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "We&apos;re booking a 375% gain in a stock to raise cash for unloved names ",
+      "description": "The massive run in chip stocks is giving us an opportunity to lock in huge gains. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/24/were-booking-a-375percent-gain-in-a-stock-to-raise-cash-for-unloved-names-.html",
+      "publishedAt": "2026-04-24T15:21:09.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "AMD shares soar 12% on no company news. Here&apos;s what has investors so excited",
+      "description": "Intel's strong quarter is driving sharp gains in another chipmaker. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/24/amd-shares-soar-on-no-company-news-heres-what-has-investors-so-excited.html",
+      "publishedAt": "2026-04-24T15:08:22.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Musk v. Altman heads to court next week. Here&apos;s what&apos;s at stake",
+      "description": "The high-profile trial between Elon Musk and Sam Altman is scheduled to begin Monday with jury selection. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/24/musk-v-altman-trial-openai-lawsuit-xai.html",
+      "publishedAt": "2026-04-24T18:35:54.000Z"
+    }
+  ],
+  "chinaNews": [
+    {
+      "query": "财经要闻",
+      "title": "创1987年以来最大单日涨幅 英特尔周五暴涨24%",
+      "description": "英特尔股价周五飙升24%，创下自1987年10月以来的最佳单日表现，投资者对因人工智能需求增长而带来的复苏迹象感到振奋。 该股收于82.57美元，继2025年全年上涨84%之后...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-25/doc-inhvrxrq4334606.shtml",
+      "publishedAt": "2026-04-24T20:45:31.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "英伟达股价自10月以来首次收盘创纪录新高",
+      "description": "英伟达周五收于纪录新高，突破了数月以来的高点，成为这家AI芯片制造商近期动能增强的最新例证。 该股收涨4.3%，至208.26美元，超过了10月创下的收盘纪录。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-25/doc-inhvrxrk4086321.shtml",
+      "publishedAt": "2026-04-24T20:33:31.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "美国债市：国债上涨 美国司法部结束美联储相关调查后短端领涨",
+      "description": "美国国债周五上涨，收益率曲线短端领涨，此前美国司法部结束对美联储建筑翻修成本超支问题的调查，这可能为凯文·沃什出任美联储主席铺平道路。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-25/doc-inhvrxrn7554815.shtml",
+      "publishedAt": "2026-04-24T20:31:47.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "美联储主席鲍威尔任期将满 是否留任理事仍存变数",
+      "description": " 美联储主席杰罗姆·鲍威尔可能正处于其央行领导生涯的最后几周。在周五司法部做出决定后，他现在面临一个选择：是否继续留在该机构任职。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-25/doc-inhvrxrq4331834.shtml",
+      "publishedAt": "2026-04-24T20:31:00.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "4月25日热门中概股多数上涨 台积电涨5.17%，理想汽车跌2.79%",
+      "description": "4月25日热门中概股多数上涨，纳斯达克中国金龙指数（HXC）收涨1.59%。 上涨个股（按市值从高到低）：台积电涨5.17%，阿里巴巴涨3.12%，拼多多涨0.30%，日月光半导体涨7...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-25/doc-inhvrxrk4085406.shtml",
+      "publishedAt": "2026-04-24T20:27:17.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "创1987年以来最大单日涨幅 英特尔周五暴涨24%",
+      "description": "英特尔股价周五飙升24%，创下自1987年10月以来的最佳单日表现，投资者对因人工智能需求增长而带来的复苏迹象感到振奋。 该股收于82.57美元，继2025年全年上涨84%之后...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-25/doc-inhvrxrq4334606.shtml",
+      "publishedAt": "2026-04-24T20:45:31.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "英伟达股价自10月以来首次收盘创纪录新高",
+      "description": "英伟达周五收于纪录新高，突破了数月以来的高点，成为这家AI芯片制造商近期动能增强的最新例证。 该股收涨4.3%，至208.26美元，超过了10月创下的收盘纪录。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-25/doc-inhvrxrk4086321.shtml",
+      "publishedAt": "2026-04-24T20:33:31.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "美国债市：国债上涨 美国司法部结束美联储相关调查后短端领涨",
+      "description": "美国国债周五上涨，收益率曲线短端领涨，此前美国司法部结束对美联储建筑翻修成本超支问题的调查，这可能为凯文·沃什出任美联储主席铺平道路。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-25/doc-inhvrxrn7554815.shtml",
+      "publishedAt": "2026-04-24T20:31:47.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "美联储主席鲍威尔任期将满 是否留任理事仍存变数",
+      "description": " 美联储主席杰罗姆·鲍威尔可能正处于其央行领导生涯的最后几周。在周五司法部做出决定后，他现在面临一个选择：是否继续留在该机构任职。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-25/doc-inhvrxrq4331834.shtml",
+      "publishedAt": "2026-04-24T20:31:00.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "4月25日热门中概股多数上涨 台积电涨5.17%，理想汽车跌2.79%",
+      "description": "4月25日热门中概股多数上涨，纳斯达克中国金龙指数（HXC）收涨1.59%。 上涨个股（按市值从高到低）：台积电涨5.17%，阿里巴巴涨3.12%，拼多多涨0.30%，日月光半导体涨7...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-25/doc-inhvrxrk4085406.shtml",
+      "publishedAt": "2026-04-24T20:27:17.000Z"
+    }
+  ]
+}
