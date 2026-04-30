@@ -1,0 +1,646 @@
+{
+  "date": "2026-05-01",
+  "fetchedAt": "2026-04-30T21:01:38.918Z",
+  "markets": [
+    {
+      "symbol": "^GSPC",
+      "label": "标普500",
+      "region": "us",
+      "price": 7209.01,
+      "change": 35.1,
+      "changePercent": 0.49,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-30T21:01:37.218Z"
+    },
+    {
+      "symbol": "^IXIC",
+      "label": "纳斯达克",
+      "region": "us",
+      "price": 24892.312,
+      "change": 5.21,
+      "changePercent": 0.02,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-30T21:01:37.645Z"
+    },
+    {
+      "symbol": "^DJI",
+      "label": "道琼斯",
+      "region": "us",
+      "price": 49652.14,
+      "change": 484.35,
+      "changePercent": 0.99,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-30T21:01:37.673Z"
+    },
+    {
+      "symbol": "^FTSE",
+      "label": "富时100",
+      "region": "uk",
+      "price": 10378.82,
+      "change": 57.72,
+      "changePercent": 0.56,
+      "currency": "GBP",
+      "marketState": null,
+      "fetchedAt": "2026-04-30T21:01:37.707Z"
+    },
+    {
+      "symbol": "^GDAXI",
+      "label": "德国DAX",
+      "region": "eu",
+      "price": 24292.38,
+      "change": 208.85,
+      "changePercent": 0.87,
+      "currency": "EUR",
+      "marketState": null,
+      "fetchedAt": "2026-04-30T21:01:37.736Z"
+    },
+    {
+      "symbol": "^N225",
+      "label": "日经225",
+      "region": "jp",
+      "price": 59284.92,
+      "change": -1252.44,
+      "changePercent": -2.07,
+      "currency": "JPY",
+      "marketState": null,
+      "fetchedAt": "2026-04-30T21:01:37.771Z"
+    },
+    {
+      "symbol": "000001.SS",
+      "label": "上证指数",
+      "region": "cn",
+      "price": 4112.159,
+      "change": 25.81,
+      "changePercent": 0.63,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-30T21:01:37.845Z"
+    },
+    {
+      "symbol": "000300.SS",
+      "label": "沪深300",
+      "region": "cn",
+      "price": 4807.307,
+      "change": 36.36,
+      "changePercent": 0.76,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-30T21:01:37.874Z"
+    },
+    {
+      "symbol": "399001.SZ",
+      "label": "深证成指",
+      "region": "cn",
+      "price": 15107.553,
+      "change": 111.8,
+      "changePercent": 0.75,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-30T21:01:37.907Z"
+    },
+    {
+      "symbol": "^HSI",
+      "label": "恒生指数",
+      "region": "hk",
+      "price": 25776.53,
+      "change": -149.12,
+      "changePercent": -0.58,
+      "currency": "HKD",
+      "marketState": null,
+      "fetchedAt": "2026-04-30T21:01:37.938Z"
+    },
+    {
+      "symbol": "^HSCE",
+      "label": "恒生中国企业",
+      "region": "hk",
+      "price": 8681.83,
+      "change": -74.49,
+      "changePercent": -0.85,
+      "currency": "HKD",
+      "marketState": null,
+      "fetchedAt": "2026-04-30T21:01:37.966Z"
+    },
+    {
+      "symbol": "^HSTECH",
+      "label": "恒生科技",
+      "region": "hk",
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "currency": null,
+      "marketState": null,
+      "fetchedAt": "2026-04-30T21:01:37.994Z"
+    },
+    {
+      "symbol": "BZ=F",
+      "label": "布伦特原油",
+      "region": "commodity",
+      "price": 111.27,
+      "change": 3.04,
+      "changePercent": 2.81,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-30T21:01:38.030Z"
+    },
+    {
+      "symbol": "GC=F",
+      "label": "COMEX黄金",
+      "region": "commodity",
+      "price": 4631.6,
+      "change": -43.8,
+      "changePercent": -0.94,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-04-30T21:01:38.061Z"
+    },
+    {
+      "symbol": "CNY=X",
+      "label": "美元/人民币",
+      "region": "fx",
+      "price": 6.8268,
+      "change": -0.01,
+      "changePercent": -0.13,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-04-30T21:01:38.099Z"
+    }
+  ],
+  "sparklines": [
+    {
+      "symbol": "^GSPC",
+      "closes": [
+        7137.89990234375,
+        7108.39990234375,
+        7165.080078125,
+        7173.91015625,
+        7138.7998046875,
+        7135.9501953125,
+        7209.009765625
+      ]
+    },
+    {
+      "symbol": "^IXIC",
+      "closes": [
+        24657.5703125,
+        24438.5,
+        24836.599609375,
+        24887.099609375,
+        24663.80078125,
+        24673.240234375,
+        24892.3125
+      ]
+    },
+    {
+      "symbol": "^DJI",
+      "closes": [
+        49490.03125,
+        49310.3203125,
+        49230.7109375,
+        49167.7890625,
+        49141.9296875,
+        48861.80859375,
+        49652.140625
+      ]
+    },
+    {
+      "symbol": "^FTSE",
+      "closes": [
+        10476.5,
+        10457,
+        10379.099609375,
+        10321.099609375,
+        10332.7998046875,
+        10213.099609375,
+        10378.8203125
+      ]
+    },
+    {
+      "symbol": "^GDAXI",
+      "closes": [
+        24194.900390625,
+        24155.44921875,
+        24128.98046875,
+        24083.529296875,
+        24018.259765625,
+        23954.560546875,
+        24292.380859375
+      ]
+    },
+    {
+      "symbol": "^N225",
+      "closes": [
+        59349.171875,
+        59585.859375,
+        59140.23046875,
+        59716.1796875,
+        60537.359375,
+        59917.4609375
+      ]
+    },
+    {
+      "symbol": "000001.SS",
+      "closes": [
+        4085.076904296875,
+        4106.2578125,
+        4093.25,
+        4079.89990234375,
+        4086.343994140625,
+        4078.636962890625,
+        4107.51416015625
+      ]
+    },
+    {
+      "symbol": "000300.SS",
+      "closes": [
+        4768,
+        4799.6298828125,
+        4786.330078125,
+        4769.3701171875,
+        4770.9501953125,
+        4758.2099609375,
+        4810.35009765625
+      ]
+    },
+    {
+      "symbol": "399001.SZ",
+      "closes": [
+        14982.1396484375,
+        15177.2900390625,
+        15043.4501953125,
+        14940.2998046875,
+        14995.75,
+        14830.4599609375,
+        15120.919921875
+      ]
+    },
+    {
+      "symbol": "^HSI",
+      "closes": [
+        26487.48046875,
+        26163.240234375,
+        25915.19921875,
+        25978.0703125,
+        25925.650390625,
+        25679.779296875,
+        26111.83984375
+      ]
+    },
+    {
+      "symbol": "^HSCE",
+      "closes": [
+        8943.5400390625,
+        8801.7802734375,
+        8732.6298828125,
+        8775.6201171875,
+        8756.3203125,
+        8644.8095703125,
+        8805.599609375
+      ]
+    },
+    {
+      "symbol": "^HSTECH",
+      "closes": []
+    },
+    {
+      "symbol": "BZ=F",
+      "closes": [
+        101.91000366210938,
+        105.06999969482422,
+        105.33000183105469,
+        108.2300033569336,
+        111.26000213623047,
+        118.02999877929688,
+        111.2699966430664
+      ]
+    },
+    {
+      "symbol": "GC=F",
+      "closes": [
+        4732.5,
+        4705.10009765625,
+        4722.2998046875,
+        4675.39990234375,
+        4591.5,
+        4545.2001953125,
+        4631.60009765625
+      ]
+    },
+    {
+      "symbol": "CNY=X",
+      "closes": [
+        6.82420015335083,
+        6.826000213623047,
+        6.835899829864502,
+        6.822800159454346,
+        6.837399959564209,
+        6.837500095367432,
+        6.8267998695373535
+      ]
+    }
+  ],
+  "macro": [
+    {
+      "seriesId": "FEDFUNDS",
+      "label": "联邦基金利率",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-30T21:01:37.395Z"
+    },
+    {
+      "seriesId": "CPIAUCSL",
+      "label": "CPI (美国)",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-30T21:01:37.659Z"
+    },
+    {
+      "seriesId": "UNRATE",
+      "label": "失业率 (美国)",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-04-30T21:01:37.798Z"
+    }
+  ],
+  "news": [
+    {
+      "query": "US Top News",
+      "title": "Apple reports earnings and revenue beat, boosted by services business ",
+      "description": "Apple reported 17% revenue growth, topping estimates, even as iPhone sales came up short. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/30/apple-aapl-q2-2026-earnings-report.html",
+      "publishedAt": "2026-04-30T21:00:20.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Google cloud growth tops Microsoft and Amazon as all three beat estimates on AI demand",
+      "description": "Amazon, Google and Microsoft all reported better-than-expected first-quarter cloud results, signaling an acceleration of AI demand",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/30/google-microsoft-and-amazon-all-report-cloud-beats-in-earnings.html",
+      "publishedAt": "2026-04-30T20:00:59.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Trump signs DHS funding bill, ending shutdown for most of agency, including TSA",
+      "description": "Trump on Thursday signed legislation to fund the Department of Homeland Security after the House approved the bill earlier in the afternoon.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/30/congress-dhs-tsa-funding.html",
+      "publishedAt": "2026-04-30T20:54:05.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Dow surges nearly 800 points, S&amp;P 500 posts first close above 7,200 and best month since 2020: Live updates",
+      "description": "The broad market index jumped more than 10% in April for its best month since November 2020.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/29/stock-market-today-live-updates.html",
+      "publishedAt": "2026-04-30T20:21:18.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Intel&apos;s stock more than doubles in April for best month in chipmaker&apos;s 55 years on Nasdaq",
+      "description": "Intel's market cap more than doubled in April, boosted by a blowout earnings report and optimism that the chipmaker is in the midst of a revival. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/30/intel-has-best-month-ever-after-years-of-losing-to-tsmc-and-nvidia.html",
+      "publishedAt": "2026-04-30T20:10:36.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Now is the time to rebalance your portfolio and snap up these bonds, UBS says",
+      "description": "Government bond yields have crept higher, presenting a compelling entry point for investors, according to the bank.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/30/now-is-the-time-to-rebalance-your-portfolio-and-snap-up-these-bonds-ubs-says.html",
+      "publishedAt": "2026-04-30T19:35:23.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Reddit reports 69% jump in revenue, topping analyst estimates",
+      "description": "Reddit reported first-quarter earnings and revenue that exceeded Wall Street expectations.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/30/reddit-rddt-q1-2026-earnings-report.html",
+      "publishedAt": "2026-04-30T20:09:48.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Trump said his blockade would cause Iran&apos;s oil industry to &apos;explode&apos; this week. Why that won&apos;t happen",
+      "description": "The U.S. and Iran are locked in a standoff that will only break when one side decides it can no longer tolerate the pain. Who will move is unclear. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/30/trump-blockade-iran-oil-strait-hormuz.html",
+      "publishedAt": "2026-04-30T16:36:21.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Trump to remove whisky tariffs after King's visit",
+      "description": "The US president said he would lift restrictions on Scotland's ability to work with the state of Kentucky on whisky and bourbon.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cjrp3pew2d5o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-30T20:34:22.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Bank of England says rates could rise as Iran war fuels inflation",
+      "description": "The Bank of England voted to hold interest rates at 3.75% as it monitors the knock-on effects of the Middle East conflict.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cg7p89mp2rjo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-30T15:02:26.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Faisal Islam: The wide field of uncertainties facing the UK",
+      "description": "The Bank tries to manage expectations over what outcomes are plausible if the Middle East conflict lasts several months.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cg4pqg250p2o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-30T15:48:52.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Mortgages, bills and jobs: Five takeaways from the Bank of England",
+      "description": "The Bank's latest meeting reveals some interesting details on how our finances might be affected due to the Iran war.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cg4pqe1zzgqo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-30T16:00:21.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Oil price hits highest since 2022 after report Trump to be briefed on new Iran options",
+      "description": "Axios reported that US Central Command has prepared a plan for a wave of \"short and powerful\" strikes on Iran.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cx21m88rd14o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-30T18:05:26.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "The kelp producer who wants to get Americans eating seaweed",
+      "description": "Marine farmer Suzie Flores also hopes the crop can revitalise the US's small fishing towns.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cx21n6zzpqwo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-29T23:01:07.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Premier Inn owner to cut 3,800 jobs in savings plan",
+      "description": "Whitbread says it will also remodel its 197 hotel restaurants as part of a five-year savings plan.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c5ye5g9m7mpo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-30T17:31:52.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Meta in row after workers who say they saw smart glasses users having sex lose jobs",
+      "description": "Meta and its subcontractor disagree over why over 1000 Kenya-based workers were made redundant.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c5y7yvgy0w6o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-30T08:59:35.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Tech stocks close out best month since start of Covid pandemic in 2020",
+      "description": "The Nasdaq Composite climbed over 15% in April, as strong earnings reports helped fuel the rally.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/30/tech-stocks-best-month-since-2020.html",
+      "publishedAt": "2026-04-30T20:34:41.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Reddit reports 69% jump in revenue, topping analyst estimates",
+      "description": "Reddit reported first-quarter earnings and revenue that exceeded Wall Street expectations.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/30/reddit-rddt-q1-2026-earnings-report.html",
+      "publishedAt": "2026-04-30T20:09:48.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Intel&apos;s stock more than doubles in April for best month in chipmaker&apos;s 55 years on Nasdaq",
+      "description": "Intel's market cap more than doubled in April, boosted by a blowout earnings report and optimism that the chipmaker is in the midst of a revival. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/30/intel-has-best-month-ever-after-years-of-losing-to-tsmc-and-nvidia.html",
+      "publishedAt": "2026-04-30T20:10:36.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Inside Wealth: Markets are underpricing the risk of Middle East pullback in AI, says tech investor Jack Selby ",
+      "description": "Middle East investors account for roughly a quarter of global AI investments over the next 5 years, said Jack Selby, managing director of Thiel Capital. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/30/investor-jack-selby-markets-underpricing-middle-east-ai-pullback-risk.html",
+      "publishedAt": "2026-04-30T18:44:31.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "AI boom: Big Tech capital expenditures now seen topping $1 trillion in 2027 ",
+      "description": "The overall cost has been causing heads to spin, but analysts say they're seeing flowthrough from investments to revenue.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/30/ai-boom-big-tech-capital-expenditures-now-seen-topping-1-trillion-in-2027-.html",
+      "publishedAt": "2026-04-30T18:26:43.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Blue Owl shares surge after private credit firm cites 10X gains from SpaceX",
+      "description": "Blue Owl said it's made 10 times its investment in SpaceX, which is headed for a record IPO later this year.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/30/blue-owl-shares-private-credit-spacex-gains.html",
+      "publishedAt": "2026-04-30T19:36:55.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Jim Cramer is far from impressed with Microsoft earnings. Here&apos;s why",
+      "description": "Microsoft's quarter was \"not joyous,\" CNBC's Jim Cramer said on CNBC on Thursday.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/30/jim-cramer-is-far-from-impressed-with-microsoft-earnings-heres-why.html",
+      "publishedAt": "2026-04-30T16:14:39.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Apple reports earnings and revenue beat, boosted by services business ",
+      "description": "Apple reported 17% revenue growth, topping estimates, even as iPhone sales came up short. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/30/apple-aapl-q2-2026-earnings-report.html",
+      "publishedAt": "2026-04-30T21:00:20.000Z"
+    }
+  ],
+  "chinaNews": [
+    {
+      "query": "财经要闻",
+      "title": "特朗普抨击国会限制其战争权力的举动",
+      "description": "特朗普总统周四对国会试图限制其战争权力的举动表示不满 —— 参议院已于当天下午否决了最新一项相关议案。 特朗普在椭圆形办公室对记者表示：“他们一而再...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/world/2026-05-01/doc-inhwispt0888905.shtml",
+      "publishedAt": "2026-04-30T20:51:01.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "美国债市：美债与欧洲债市一道走高 油价下跌和日元飙升带来支撑",
+      "description": "美国国债守住了早盘涨势，当时欧洲和英国政府债券在欧洲央行和英国央行宣布利率决定后走强，而纽约时间下午4点会进行月底指数再平衡。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/world/2026-05-01/doc-inhwinfx3847598.shtml",
+      "publishedAt": "2026-04-30T20:42:33.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "5月1日美股成交额前20：Meta Platforms上调资本开支引发担忧",
+      "description": " 周四美股成交额第1名英伟达收跌4.64%，股价跌破200美元，成交449.16亿美元。至此该股已经连续三个交易日下跌，市值回到5万亿美元之下。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-05-01/doc-inhwinfv1017259.shtml",
+      "publishedAt": "2026-04-30T20:38:42.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "5月1日热门中概股普涨 贝壳涨7%，WSP控股跌3.26%",
+      "description": "5月1日热门中概股普涨，纳斯达克中国金龙指数（HXC）收高2.01%。 上涨个股（按市值从高到低）：台积电涨0.57%，阿里巴巴涨1.13%，拼多多涨2.26%，网易涨3.54%...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-05-01/doc-inhwinfv1013475.shtml",
+      "publishedAt": "2026-04-30T20:19:59.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "原油：布伦特油价自四年高点回落 战争担忧抑制市场流动性",
+      "description": "布伦特原油在因市场预期美伊冲突可能长期化而飙升至四年高点后回落，日内交易由程序化交易主导，成交清淡。 这一全球基准的6月合约下跌，结算价每桶约114美元...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/world/2026-05-01/doc-inhwinfv7062097.shtml",
+      "publishedAt": "2026-04-30T20:14:02.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "特朗普抨击国会限制其战争权力的举动",
+      "description": "特朗普总统周四对国会试图限制其战争权力的举动表示不满 —— 参议院已于当天下午否决了最新一项相关议案。 特朗普在椭圆形办公室对记者表示：“他们一而再...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/world/2026-05-01/doc-inhwispt0888905.shtml",
+      "publishedAt": "2026-04-30T20:51:01.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "美国债市：美债与欧洲债市一道走高 油价下跌和日元飙升带来支撑",
+      "description": "美国国债守住了早盘涨势，当时欧洲和英国政府债券在欧洲央行和英国央行宣布利率决定后走强，而纽约时间下午4点会进行月底指数再平衡。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/world/2026-05-01/doc-inhwinfx3847598.shtml",
+      "publishedAt": "2026-04-30T20:42:33.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "5月1日美股成交额前20：Meta Platforms上调资本开支引发担忧",
+      "description": " 周四美股成交额第1名英伟达收跌4.64%，股价跌破200美元，成交449.16亿美元。至此该股已经连续三个交易日下跌，市值回到5万亿美元之下。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-05-01/doc-inhwinfv1017259.shtml",
+      "publishedAt": "2026-04-30T20:38:42.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "5月1日热门中概股普涨 贝壳涨7%，WSP控股跌3.26%",
+      "description": "5月1日热门中概股普涨，纳斯达克中国金龙指数（HXC）收高2.01%。 上涨个股（按市值从高到低）：台积电涨0.57%，阿里巴巴涨1.13%，拼多多涨2.26%，网易涨3.54%...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-05-01/doc-inhwinfv1013475.shtml",
+      "publishedAt": "2026-04-30T20:19:59.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "原油：布伦特油价自四年高点回落 战争担忧抑制市场流动性",
+      "description": "布伦特原油在因市场预期美伊冲突可能长期化而飙升至四年高点后回落，日内交易由程序化交易主导，成交清淡。 这一全球基准的6月合约下跌，结算价每桶约114美元...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/world/2026-05-01/doc-inhwinfv7062097.shtml",
+      "publishedAt": "2026-04-30T20:14:02.000Z"
+    }
+  ]
+}
