@@ -1,0 +1,646 @@
+{
+  "date": "2026-05-02",
+  "fetchedAt": "2026-05-01T20:53:48.871Z",
+  "markets": [
+    {
+      "symbol": "^GSPC",
+      "label": "标普500",
+      "region": "us",
+      "price": 7230.12,
+      "change": 91.32,
+      "changePercent": 1.28,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-05-01T20:53:47.096Z"
+    },
+    {
+      "symbol": "^IXIC",
+      "label": "纳斯达克",
+      "region": "us",
+      "price": 25114.443,
+      "change": 450.64,
+      "changePercent": 1.83,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-05-01T20:53:47.352Z"
+    },
+    {
+      "symbol": "^DJI",
+      "label": "道琼斯",
+      "region": "us",
+      "price": 49499.27,
+      "change": 357.34,
+      "changePercent": 0.73,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-05-01T20:53:47.458Z"
+    },
+    {
+      "symbol": "^FTSE",
+      "label": "富时100",
+      "region": "uk",
+      "price": 10363.93,
+      "change": 31.13,
+      "changePercent": 0.3,
+      "currency": "GBP",
+      "marketState": null,
+      "fetchedAt": "2026-05-01T20:53:47.563Z"
+    },
+    {
+      "symbol": "^GDAXI",
+      "label": "德国DAX",
+      "region": "eu",
+      "price": 24292.38,
+      "change": 274.12,
+      "changePercent": 1.14,
+      "currency": "EUR",
+      "marketState": null,
+      "fetchedAt": "2026-05-01T20:53:47.687Z"
+    },
+    {
+      "symbol": "^N225",
+      "label": "日经225",
+      "region": "jp",
+      "price": 59513.12,
+      "change": -404.34,
+      "changePercent": -0.67,
+      "currency": "JPY",
+      "marketState": null,
+      "fetchedAt": "2026-05-01T20:53:47.791Z"
+    },
+    {
+      "symbol": "000001.SS",
+      "label": "上证指数",
+      "region": "cn",
+      "price": 4112.159,
+      "change": 33.52,
+      "changePercent": 0.82,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-05-01T20:53:47.884Z"
+    },
+    {
+      "symbol": "000300.SS",
+      "label": "沪深300",
+      "region": "cn",
+      "price": 4807.307,
+      "change": 49.1,
+      "changePercent": 1.03,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-05-01T20:53:48.007Z"
+    },
+    {
+      "symbol": "399001.SZ",
+      "label": "深证成指",
+      "region": "cn",
+      "price": 15107.553,
+      "change": 277.09,
+      "changePercent": 1.87,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-05-01T20:53:48.115Z"
+    },
+    {
+      "symbol": "^HSI",
+      "label": "恒生指数",
+      "region": "hk",
+      "price": 25776.53,
+      "change": 96.75,
+      "changePercent": 0.38,
+      "currency": "HKD",
+      "marketState": null,
+      "fetchedAt": "2026-05-01T20:53:48.285Z"
+    },
+    {
+      "symbol": "^HSCE",
+      "label": "恒生中国企业",
+      "region": "hk",
+      "price": 8681.83,
+      "change": 37.02,
+      "changePercent": 0.43,
+      "currency": "HKD",
+      "marketState": null,
+      "fetchedAt": "2026-05-01T20:53:48.388Z"
+    },
+    {
+      "symbol": "^HSTECH",
+      "label": "恒生科技",
+      "region": "hk",
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "currency": null,
+      "marketState": null,
+      "fetchedAt": "2026-05-01T20:53:48.506Z"
+    },
+    {
+      "symbol": "BZ=F",
+      "label": "布伦特原油",
+      "region": "commodity",
+      "price": 108.84,
+      "change": -2.42,
+      "changePercent": -2.18,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-05-01T20:53:48.623Z"
+    },
+    {
+      "symbol": "GC=F",
+      "label": "COMEX黄金",
+      "region": "commodity",
+      "price": 4625.7,
+      "change": 34.2,
+      "changePercent": 0.74,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-05-01T20:53:48.747Z"
+    },
+    {
+      "symbol": "CNY=X",
+      "label": "美元/人民币",
+      "region": "fx",
+      "price": 6.8268,
+      "change": 0,
+      "changePercent": 0.06,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-05-01T20:53:48.871Z"
+    }
+  ],
+  "sparklines": [
+    {
+      "symbol": "^GSPC",
+      "closes": [
+        7108.39990234375,
+        7165.080078125,
+        7173.91015625,
+        7138.7998046875,
+        7135.9501953125,
+        7209.009765625,
+        7230.1201171875
+      ]
+    },
+    {
+      "symbol": "^IXIC",
+      "closes": [
+        24438.5,
+        24836.599609375,
+        24887.099609375,
+        24663.80078125,
+        24673.240234375,
+        24892.310546875,
+        25114.443359375
+      ]
+    },
+    {
+      "symbol": "^DJI",
+      "closes": [
+        49310.3203125,
+        49230.7109375,
+        49167.7890625,
+        49141.9296875,
+        48861.80859375,
+        49652.140625,
+        49499.26953125
+      ]
+    },
+    {
+      "symbol": "^FTSE",
+      "closes": [
+        10457,
+        10379.099609375,
+        10321.099609375,
+        10332.7998046875,
+        10213.099609375,
+        10378.7998046875,
+        10363.9296875
+      ]
+    },
+    {
+      "symbol": "^GDAXI",
+      "closes": [
+        24194.900390625,
+        24155.44921875,
+        24128.98046875,
+        24083.529296875,
+        24018.259765625,
+        23954.560546875,
+        24292.380859375
+      ]
+    },
+    {
+      "symbol": "^N225",
+      "closes": [
+        59585.859375,
+        59140.23046875,
+        59716.1796875,
+        60537.359375,
+        59917.4609375,
+        59284.921875
+      ]
+    },
+    {
+      "symbol": "000001.SS",
+      "closes": [
+        4106.2578125,
+        4093.25,
+        4079.89990234375,
+        4086.343994140625,
+        4078.636962890625,
+        4107.51416015625,
+        4112.1591796875
+      ]
+    },
+    {
+      "symbol": "000300.SS",
+      "closes": [
+        4799.6298828125,
+        4786.330078125,
+        4769.3701171875,
+        4770.9501953125,
+        4758.2099609375,
+        4810.35009765625,
+        4807.31005859375
+      ]
+    },
+    {
+      "symbol": "399001.SZ",
+      "closes": [
+        15177.2900390625,
+        15043.4501953125,
+        14940.2998046875,
+        14995.75,
+        14830.4599609375,
+        15120.919921875,
+        15107.5498046875
+      ]
+    },
+    {
+      "symbol": "^HSI",
+      "closes": [
+        26163.240234375,
+        25915.19921875,
+        25978.0703125,
+        25925.650390625,
+        25679.779296875,
+        26111.83984375,
+        25776.529296875
+      ]
+    },
+    {
+      "symbol": "^HSCE",
+      "closes": [
+        8801.7802734375,
+        8732.6298828125,
+        8775.6201171875,
+        8756.3203125,
+        8644.8095703125,
+        8805.599609375,
+        8681.830078125
+      ]
+    },
+    {
+      "symbol": "^HSTECH",
+      "closes": []
+    },
+    {
+      "symbol": "BZ=F",
+      "closes": [
+        105.06999969482422,
+        105.33000183105469,
+        108.2300033569336,
+        111.26000213623047,
+        118.02999877929688,
+        114.01000213623047,
+        108.83999633789062
+      ]
+    },
+    {
+      "symbol": "GC=F",
+      "closes": [
+        4705.10009765625,
+        4722.2998046875,
+        4675.39990234375,
+        4591.5,
+        4545.2001953125,
+        4614.7001953125,
+        4625.7001953125
+      ]
+    },
+    {
+      "symbol": "CNY=X",
+      "closes": [
+        6.826000213623047,
+        6.835899829864502,
+        6.822800159454346,
+        6.837399959564209,
+        6.837500095367432,
+        6.827300071716309,
+        6.8267998695373535
+      ]
+    }
+  ],
+  "macro": [
+    {
+      "seriesId": "FEDFUNDS",
+      "label": "联邦基金利率",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-05-01T20:53:47.056Z"
+    },
+    {
+      "seriesId": "CPIAUCSL",
+      "label": "CPI (美国)",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-05-01T20:53:47.240Z"
+    },
+    {
+      "seriesId": "UNRATE",
+      "label": "失业率 (美国)",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-05-01T20:53:47.363Z"
+    }
+  ],
+  "news": [
+    {
+      "query": "US Top News",
+      "title": "Exxon Mobil CEO expects higher oil prices due to Iran war: ‘The market hasn’t seen the full impact’",
+      "description": "Oil prices have soared on the risk of escalation and then plunged on hopes for peace before repeating the cycle.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/exxon-ceo-iran-war-oil-strait-hormuz.html",
+      "publishedAt": "2026-05-01T18:58:24.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Trump tells Congress hostilities in Iran &apos;have terminated&apos; as war powers deadline hits",
+      "description": "Trump said there \"is tremendous discord\" among Iran's leaders, which has complicated efforts to end the war that the United States began in late February.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/trump-rejects-iran-peace-deal.html",
+      "publishedAt": "2026-05-01T20:35:46.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Trump says government gave &apos;final&apos; bailout proposal for Spirit Airlines as liquidation looms",
+      "description": "Talks with bondholders for a government bailout this week have not yet yielded a deal.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/spirit-airlines-trump-bailout.html",
+      "publishedAt": "2026-05-01T19:23:07.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "S&amp;P 500 closes at a new record to usher in May as oil prices cool and Apple rises: Live updates",
+      "description": "The S&P 500 rose to a fresh all-time intraday high on Friday, boosted by Apple shares, while oil prices fell as a new month of trading got underway.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/30/stock-market-today-live-updates.html",
+      "publishedAt": "2026-05-01T20:15:36.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Jobs and earnings will dominate the first full week of May. Here&apos;s what&apos;s ahead ",
+      "description": "A solid jobs report could alleviate fears of a weakening U.S. economy, which some recent signals have indicated. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/stock-market-next-week-outlook-for-may-4-8-2026.html",
+      "publishedAt": "2026-05-01T20:05:41.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Trump says he&apos;s raising EU auto tariffs to 25% without clarifying how",
+      "description": "The Supreme Court struck down Trump's \"reciprocal\" tariffs earlier this year, and Europe warned that its trade deal with Washington could be in jeopardy.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/trump-eu-auto-tariffs.html",
+      "publishedAt": "2026-05-01T20:23:19.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Engine trouble ahead? How the Strait of Hormuz standoff threatens luxury auto giants",
+      "description": "Supercar engines rely on base oils because they can withstand extreme heat, high revs and intense pressure.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/strait-of-hormuz-base-oils-luxury-autos.html",
+      "publishedAt": "2026-05-01T09:19:59.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Pirro keeps pressure on Fed&apos;s Powell despite dropping probe",
+      "description": "The U.S. attorney is expected to imminently appeal a ruling blocking her investigation of the Fed's cost overruns.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/fed-powell-pirro-investigation.html",
+      "publishedAt": "2026-05-01T18:59:26.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Trump says he will hike tariffs on EU cars to 25% ",
+      "description": "The current level of tariffs charged on goods entering the US from the EU is 15%, under a deal negotiated last July.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c4g8zpylzz9o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-05-01T19:42:56.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "The Real Greek rescued by Cote Brasserie-owner",
+      "description": "All but nine of the Mediterranean chain's 28 outlets are being taken over by the family-owned Karali group.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c93xqnlq33qo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-05-01T17:03:19.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Crayola toys recalled over possible asbestos contamination",
+      "description": "People should stop using the products immediately and keep out of the reach of children, the government says.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cdjp3dlkzwwo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-05-01T14:58:38.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "No evidence of widespread fuel price-gouging, watchdog says",
+      "description": "Profit margins were \"broadly unchanged\" between February and March, the UK's competition watchdog says.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c62djjj0z09o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-05-01T15:12:16.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Billions of meals at risk due to Iran war, says fertiliser boss ",
+      "description": "A shortage of fertiliser due to the Iran conflict could reduce crop yields and push prices higher, says the boss of Yara.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cpwp50v4ye7o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-05-01T13:12:10.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Will AI lead to more accurate opinion polls?",
+      "description": "It's cheaper and faster to collect people's opinions using AI, but will it make polls more accurate?",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cwyw6rylzepo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-30T23:11:37.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "'There were letters I didn't want to open': Rise in unpaid debt court cases",
+      "description": "The number of county court judgements rose by 17.5% in the first quarter of this year compared to last, data suggests.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cwy2ldl1k7do?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-30T23:07:00.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Spotify adds 'Verified' badges to distinguish human artists from AI",
+      "description": "The music streaming platform will review criteria such as artists' live dates and social media presence.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c5yerr4m1yno?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-05-01T11:29:35.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "The market isn&apos;t grading all Big Tech earnings the same — here&apos;s why",
+      "description": "After a big week of mega-cap tech earnings, investors are starting to differentiate AI tech winners from those still proving themselves.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/the-market-isnt-grading-all-big-tech-earnings-the-same-heres-why.html",
+      "publishedAt": "2026-05-01T19:11:36.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Apple&apos;s stock gains as company execs cite iPhone, Mac demand in boosting guidance",
+      "description": "On its quarterly earnings call, Apple said revenue growth in the current quarter would be between 14% and 17%, well above analysts' estimates. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/apple-stock-rallies-on-q2-earnings-and-q3-guidance.html",
+      "publishedAt": "2026-05-01T20:11:58.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Roblox shares plummet 18% as child safety measures weigh on bookings",
+      "description": "Roblox is facing over 140 federal lawsuits accusing it of failing to prevent child exploitation, and last month settled with Alabama and West Virginia.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/roblox-rblx-stock-child-safety-earnings.html",
+      "publishedAt": "2026-05-01T20:01:24.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Atlassian stock soars 29% after earnings show strong cloud, data center growth",
+      "description": "Atlassian's stock has been hit hard in the \"SaaS-pocalypse\" sweeping software names as AI threatens to disrupt their business models.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/atlassian-team-q3-stock-2026-earnings.html",
+      "publishedAt": "2026-05-01T19:21:05.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Apple earnings, DHS shutdown, &apos;Ozempic breath&apos; and more in Morning Squawk",
+      "description": "Here are five key things investors need to know to start the trading day.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/5-things-to-know-before-the-market-opens.html",
+      "publishedAt": "2026-05-01T12:09:15.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Elon Musk billionaires bill supporters draw progressive challengers in Delaware",
+      "description": "Musk, whose record pay package was in legal limbo in Delaware, relocated Tesla's incorporation out of state during the spat.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/elon-musk-billionaire-bill-elections-progressive-challengers-delaware.html",
+      "publishedAt": "2026-05-01T15:03:59.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Pentagon tech chief says Anthropic is still blacklisted, but Mythos is a separate issue",
+      "description": "The DOD announced it has entered into agreements with seven other AI companies. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/pentagon-anthropic-blacklist-mythos-michael.html",
+      "publishedAt": "2026-05-01T12:51:08.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "The Tech Download: Chip stocks surge in ‘historic’ month as investors’ AI buildout concerns ease",
+      "description": "March saw many chip stocks drop amid concerns over the AI buildout, but their fortunes have reversed in April.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/tech-download-chip-stocks-surge-historic-month-intel-apple.html",
+      "publishedAt": "2026-05-01T12:41:39.000Z"
+    }
+  ],
+  "chinaNews": [
+    {
+      "query": "财经要闻",
+      "title": "至少六家机构大幅上调闪迪目标价",
+      "description": "闪迪周五收高8.25%，股价创历史新高，成交255.52亿美元。 至少六家机构大幅上调闪迪目标价，最高看涨至2000美元，反映市场对其增长预期显著强化，情绪明显转向乐观。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-05-02/doc-inhwmvnv2875051.shtml",
+      "publishedAt": "2026-05-01T20:43:09.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "5月2日热门中概股多数下跌 慧荣科技涨7.19%，蔚来跌7.51%",
+      "description": "5月2日热门中概股多数下跌，纳斯达克中国金龙指数（HXC）收跌0.59%。 上涨个股（按市值从高到低）：台积电涨0.41%，网易涨0.40%，日月光半导体涨0.57%，携程涨0.02%...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-05-02/doc-inhwmvnq5024501.shtml",
+      "publishedAt": "2026-05-01T20:34:21.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "5月2日收盘：美股涨跌不一 纳指突破25000点创历史新高",
+      "description": "北京时间5月2日凌晨，美股周五收盘涨跌不一，纳指与标普500指数再创历史新高。三大股指本周均录得涨幅，纳指首次收在25000点之上。苹果引领科技股上涨。油价下跌。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-05-02/doc-inhwmvnt0107233.shtml",
+      "publishedAt": "2026-05-01T20:13:58.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "美国多家石油巨头CEO警告称能源市场正逼近悬崖边缘",
+      "description": "美国最大的石油公司警告称，霍尔木兹海峡关闭时间越长，全球原油市场越可能逼近价格上行的拐点。 埃克森美孚、雪佛龙和康菲石油本周表示，该水道多关闭一天...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-05-02/doc-inhwmvnt6089944.shtml",
+      "publishedAt": "2026-05-01T20:13:15.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "原油：WTI小幅下挫 市场憧憬美伊谈判取得进展",
+      "description": "油价小幅走低，市场交投清淡。美伊和平谈判陷入僵局但仍未完全破裂，一些交易员在周末前削减风险敞口。 西德克萨斯州中质油（WTI）期货价格下跌，但连续第二周录得周涨幅...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-05-02/doc-inhwmvnv2864172.shtml",
+      "publishedAt": "2026-05-01T20:01:30.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "至少六家机构大幅上调闪迪目标价",
+      "description": "闪迪周五收高8.25%，股价创历史新高，成交255.52亿美元。 至少六家机构大幅上调闪迪目标价，最高看涨至2000美元，反映市场对其增长预期显著强化，情绪明显转向乐观。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-05-02/doc-inhwmvnv2875051.shtml",
+      "publishedAt": "2026-05-01T20:43:09.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "5月2日热门中概股多数下跌 慧荣科技涨7.19%，蔚来跌7.51%",
+      "description": "5月2日热门中概股多数下跌，纳斯达克中国金龙指数（HXC）收跌0.59%。 上涨个股（按市值从高到低）：台积电涨0.41%，网易涨0.40%，日月光半导体涨0.57%，携程涨0.02%...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-05-02/doc-inhwmvnq5024501.shtml",
+      "publishedAt": "2026-05-01T20:34:21.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "5月2日收盘：美股涨跌不一 纳指突破25000点创历史新高",
+      "description": "北京时间5月2日凌晨，美股周五收盘涨跌不一，纳指与标普500指数再创历史新高。三大股指本周均录得涨幅，纳指首次收在25000点之上。苹果引领科技股上涨。油价下跌。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-05-02/doc-inhwmvnt0107233.shtml",
+      "publishedAt": "2026-05-01T20:13:58.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "美国多家石油巨头CEO警告称能源市场正逼近悬崖边缘",
+      "description": "美国最大的石油公司警告称，霍尔木兹海峡关闭时间越长，全球原油市场越可能逼近价格上行的拐点。 埃克森美孚、雪佛龙和康菲石油本周表示，该水道多关闭一天...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-05-02/doc-inhwmvnt6089944.shtml",
+      "publishedAt": "2026-05-01T20:13:15.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "原油：WTI小幅下挫 市场憧憬美伊谈判取得进展",
+      "description": "油价小幅走低，市场交投清淡。美伊和平谈判陷入僵局但仍未完全破裂，一些交易员在周末前削减风险敞口。 西德克萨斯州中质油（WTI）期货价格下跌，但连续第二周录得周涨幅...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-05-02/doc-inhwmvnv2864172.shtml",
+      "publishedAt": "2026-05-01T20:01:30.000Z"
+    }
+  ]
+}
