@@ -1,0 +1,641 @@
+{
+  "date": "2026-05-03",
+  "fetchedAt": "2026-05-02T20:41:42.493Z",
+  "markets": [
+    {
+      "symbol": "^GSPC",
+      "label": "标普500",
+      "region": "us",
+      "price": 7230.12,
+      "change": 94.17,
+      "changePercent": 1.32,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-05-02T20:41:40.444Z"
+    },
+    {
+      "symbol": "^IXIC",
+      "label": "纳斯达克",
+      "region": "us",
+      "price": 25114.443,
+      "change": 441.2,
+      "changePercent": 1.79,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-05-02T20:41:40.604Z"
+    },
+    {
+      "symbol": "^DJI",
+      "label": "道琼斯",
+      "region": "us",
+      "price": 49499.27,
+      "change": 637.46,
+      "changePercent": 1.3,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-05-02T20:41:40.704Z"
+    },
+    {
+      "symbol": "^FTSE",
+      "label": "富时100",
+      "region": "uk",
+      "price": 10363.93,
+      "change": 150.83,
+      "changePercent": 1.48,
+      "currency": "GBP",
+      "marketState": null,
+      "fetchedAt": "2026-05-02T20:41:40.833Z"
+    },
+    {
+      "symbol": "^GDAXI",
+      "label": "德国DAX",
+      "region": "eu",
+      "price": 24292.38,
+      "change": 337.82,
+      "changePercent": 1.41,
+      "currency": "EUR",
+      "marketState": null,
+      "fetchedAt": "2026-05-02T20:41:40.961Z"
+    },
+    {
+      "symbol": "^N225",
+      "label": "日经225",
+      "region": "jp",
+      "price": 59513.12,
+      "change": -404.34,
+      "changePercent": -0.67,
+      "currency": "JPY",
+      "marketState": null,
+      "fetchedAt": "2026-05-02T20:41:41.062Z"
+    },
+    {
+      "symbol": "000001.SS",
+      "label": "上证指数",
+      "region": "cn",
+      "price": 4112.159,
+      "change": 4.64,
+      "changePercent": 0.11,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-05-02T20:41:41.160Z"
+    },
+    {
+      "symbol": "000300.SS",
+      "label": "沪深300",
+      "region": "cn",
+      "price": 4807.307,
+      "change": -3.04,
+      "changePercent": -0.06,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-05-02T20:41:41.258Z"
+    },
+    {
+      "symbol": "399001.SZ",
+      "label": "深证成指",
+      "region": "cn",
+      "price": 15107.553,
+      "change": -13.37,
+      "changePercent": -0.09,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-05-02T20:41:41.333Z"
+    },
+    {
+      "symbol": "^HSI",
+      "label": "恒生指数",
+      "region": "hk",
+      "price": 25776.53,
+      "change": -335.31,
+      "changePercent": -1.28,
+      "currency": "HKD",
+      "marketState": null,
+      "fetchedAt": "2026-05-02T20:41:41.436Z"
+    },
+    {
+      "symbol": "^HSCE",
+      "label": "恒生中国企业",
+      "region": "hk",
+      "price": 8681.83,
+      "change": -123.77,
+      "changePercent": -1.41,
+      "currency": "HKD",
+      "marketState": null,
+      "fetchedAt": "2026-05-02T20:41:41.538Z"
+    },
+    {
+      "symbol": "^HSTECH",
+      "label": "恒生科技",
+      "region": "hk",
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "currency": null,
+      "marketState": null,
+      "fetchedAt": "2026-05-02T20:41:41.641Z"
+    },
+    {
+      "symbol": "BZ=F",
+      "label": "布伦特原油",
+      "region": "commodity",
+      "price": 108.17,
+      "change": -9.86,
+      "changePercent": -8.35,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-05-02T20:41:41.775Z"
+    },
+    {
+      "symbol": "GC=F",
+      "label": "COMEX黄金",
+      "region": "commodity",
+      "price": 4644.5,
+      "change": 99.3,
+      "changePercent": 2.18,
+      "currency": "USD",
+      "marketState": null,
+      "fetchedAt": "2026-05-02T20:41:41.897Z"
+    },
+    {
+      "symbol": "CNY=X",
+      "label": "美元/人民币",
+      "region": "fx",
+      "price": 6.8271,
+      "change": -0.01,
+      "changePercent": -0.15,
+      "currency": "CNY",
+      "marketState": null,
+      "fetchedAt": "2026-05-02T20:41:41.997Z"
+    }
+  ],
+  "sparklines": [
+    {
+      "symbol": "^GSPC",
+      "closes": [
+        7108.39990234375,
+        7165.080078125,
+        7173.91015625,
+        7138.7998046875,
+        7135.9501953125,
+        7209.009765625,
+        7230.1201171875
+      ]
+    },
+    {
+      "symbol": "^IXIC",
+      "closes": [
+        24438.5,
+        24836.599609375,
+        24887.099609375,
+        24663.80078125,
+        24673.240234375,
+        24892.310546875,
+        25114.439453125
+      ]
+    },
+    {
+      "symbol": "^DJI",
+      "closes": [
+        49310.3203125,
+        49230.7109375,
+        49167.7890625,
+        49141.9296875,
+        48861.80859375,
+        49652.140625,
+        49499.26953125
+      ]
+    },
+    {
+      "symbol": "^FTSE",
+      "closes": [
+        10457,
+        10379.099609375,
+        10321.099609375,
+        10332.7998046875,
+        10213.099609375,
+        10378.7998046875,
+        10363.900390625
+      ]
+    },
+    {
+      "symbol": "^GDAXI",
+      "closes": [
+        24194.900390625,
+        24155.44921875,
+        24128.98046875,
+        24083.529296875,
+        24018.259765625,
+        23954.560546875,
+        24292.380859375
+      ]
+    },
+    {
+      "symbol": "^N225",
+      "closes": [
+        59140.23046875,
+        59716.1796875,
+        60537.359375,
+        59917.4609375,
+        59284.921875,
+        59513.12109375
+      ]
+    },
+    {
+      "symbol": "000001.SS",
+      "closes": [
+        4093.25,
+        4079.89990234375,
+        4086.343994140625,
+        4078.636962890625,
+        4107.51416015625,
+        4112.1591796875
+      ]
+    },
+    {
+      "symbol": "000300.SS",
+      "closes": [
+        4786.330078125,
+        4769.3701171875,
+        4770.9501953125,
+        4758.2099609375,
+        4810.35009765625,
+        4807.31005859375
+      ]
+    },
+    {
+      "symbol": "399001.SZ",
+      "closes": [
+        15043.4501953125,
+        14940.2998046875,
+        14995.75,
+        14830.4599609375,
+        15120.919921875,
+        15107.5498046875
+      ]
+    },
+    {
+      "symbol": "^HSI",
+      "closes": [
+        25915.19921875,
+        25978.0703125,
+        25925.650390625,
+        25679.779296875,
+        26111.83984375,
+        25776.529296875
+      ]
+    },
+    {
+      "symbol": "^HSCE",
+      "closes": [
+        8732.6298828125,
+        8775.6201171875,
+        8756.3203125,
+        8644.8095703125,
+        8805.599609375,
+        8681.830078125
+      ]
+    },
+    {
+      "symbol": "^HSTECH",
+      "closes": []
+    },
+    {
+      "symbol": "BZ=F",
+      "closes": [
+        105.06999969482422,
+        105.33000183105469,
+        108.2300033569336,
+        111.26000213623047,
+        118.02999877929688,
+        114.01000213623047,
+        108.16999816894531
+      ]
+    },
+    {
+      "symbol": "GC=F",
+      "closes": [
+        4705.10009765625,
+        4722.2998046875,
+        4675.39990234375,
+        4591.5,
+        4545.2001953125,
+        4614.7001953125,
+        4629.89990234375
+      ]
+    },
+    {
+      "symbol": "CNY=X",
+      "closes": [
+        6.826000213623047,
+        6.835899829864502,
+        6.822800159454346,
+        6.837399959564209,
+        6.837500095367432,
+        6.827300071716309,
+        6.827099800109863
+      ]
+    }
+  ],
+  "macro": [
+    {
+      "seriesId": "FEDFUNDS",
+      "label": "联邦基金利率",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-05-02T20:41:40.340Z"
+    },
+    {
+      "seriesId": "CPIAUCSL",
+      "label": "CPI (美国)",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-05-02T20:41:40.564Z"
+    },
+    {
+      "seriesId": "UNRATE",
+      "label": "失业率 (美国)",
+      "latestDate": null,
+      "latestValue": null,
+      "unit": "",
+      "fetchedAt": "2026-05-02T20:41:40.669Z"
+    }
+  ],
+  "news": [
+    {
+      "query": "US Top News",
+      "title": "Berkshire annual meeting recap: Buffett says investing environment not ideal, sees &apos;gambling&apos; in markets",
+      "description": "Warren Buffett has loomed large at Berkshire Hathaway's annual shareholder meetings. Greg Abel tackled a wide array of topics in his first as CEO. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/02/warren-buffett-berkshire-hathaway-annual-meeting-2026-live-updates.html",
+      "publishedAt": "2026-05-02T19:02:23.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Spirit Airlines shuts down after failing to reach a bailout deal, ending discount travel era",
+      "description": "Talks with bondholders for a government bailout this week failed to yield a deal.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/spirit-airlines-trump-bailout.html",
+      "publishedAt": "2026-05-02T11:10:51.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "After Spirit collapse, Duffy says there&apos;s no need for government budget airline bailout",
+      "description": "Duffy said he does not think the government needs to bail out low-cost airlines that have sought $2.5 billion in government relief because of high fuel prices.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/02/after-spirit-collapse-duffy-says-theres-no-need-for-government-budget-airline-bailout.html",
+      "publishedAt": "2026-05-02T17:25:42.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Weight loss and hair loss: The growing hair treatment market from GLP-1s",
+      "description": "A common side effect of many GLP-1 drugs is hair loss. It's creating a formerly untapped but growing market for hair treatment products.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/02/hair-loss-glp-1s.html",
+      "publishedAt": "2026-05-02T12:00:01.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "These stocks reporting next week have earnings momentum on their side",
+      "description": "Stocks reporting earnings next week that are also seeing accelerating earnings momentum include Datadog and Block.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/02/these-stocks-reporting-next-week-have-earnings-momentum-on-their-side.html",
+      "publishedAt": "2026-05-02T11:58:20.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "The U.S.-Iran war is coming for your credit score and mortgage application ",
+      "description": "The U.S.-Iran war and Strait of Hormuz closure have caused a global economic ripple effect, your credit score included as banks and lenders get tighter. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/02/us-iran-war-credit-score-loans-mortgage-rates.html",
+      "publishedAt": "2026-05-02T14:12:35.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Musk testimony dominated first week Musk v. Altman. &apos;You can&apos;t just steal a charity&apos;",
+      "description": "Elon Musk, the world's richest person, took the stand and testified over the course of three days in his trial against OpenAI CEO Sam Altman. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/02/musk-testimony-dominated-first-week-musk-v-altman-trial-in-oakland.html",
+      "publishedAt": "2026-05-02T12:00:01.000Z"
+    },
+    {
+      "query": "US Top News",
+      "title": "Iran offers Strait of Hormuz deal; Trump dissatisfied but prefers non-military path",
+      "description": "Trump said  he was not satisfied ​with the latest Iranian proposal. Iran's foreign minister said Tehran was ready for diplomacy if U.S. changes its approach.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/02/trump-iran-strait-of-hormuz.html",
+      "publishedAt": "2026-05-02T17:59:39.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Spirit Airlines shutting down after rescue talks collapse",
+      "description": "The airline had been in talks with the Trump administration about a $500m bailout. ",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cqxlnrqjvzyo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-05-02T18:47:35.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Trump says he will hike tariffs on EU cars to 25% ",
+      "description": "The current level of tariffs charged on goods entering the US from the EU is 15%, under a deal negotiated last July.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c4g8zpylzz9o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-05-01T19:42:56.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Mortgages, jobs and energy bills - how the Iran war will affect your money",
+      "description": "The Bank of England's latest report reveals some interesting details on how our finances will be affected due to the Iran war.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cg4pqe1zzgqo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-05-01T21:16:44.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Pentagon says US military to be an 'AI-first' fighting force",
+      "description": "The US military has agreed eight new contracts with big tech firms as it expands its artificial intelligence capabilities.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cy02gjq2987o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-05-01T21:09:52.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "The Real Greek rescued by Cote Brasserie-owner",
+      "description": "All but nine of the Mediterranean chain's 28 outlets are being taken over by the family-owned Karali group.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c93xqnlq33qo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-05-01T17:03:19.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Will AI lead to more accurate opinion polls?",
+      "description": "It's cheaper and faster to collect people's opinions using AI, but will it make polls more accurate?",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cwyw6rylzepo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-04-30T23:11:37.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "Crayola toys recalled over possible asbestos contamination",
+      "description": "People should stop using the products immediately and keep out of the reach of children, the government says.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cdjp3dlkzwwo?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-05-01T14:58:38.000Z"
+    },
+    {
+      "query": "BBC Business",
+      "title": "No evidence of widespread fuel price-gouging, watchdog says",
+      "description": "Profit margins were \"broadly unchanged\" between February and March, the UK's competition watchdog says.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c62djjj0z09o?at_medium=RSS&amp;at_campaign=rss",
+      "publishedAt": "2026-05-01T15:12:16.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "The S&amp;P 500 and Nasdaq kept their record rallies going. Here are 3 key takeaways",
+      "description": "It seemed like what really captivated Wall Street though was corporate earnings.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/02/the-sp-500-and-nasdaq-kept-their-record-rallies-going-here-are-3-key-takeaways-.html",
+      "publishedAt": "2026-05-02T15:13:09.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Musk testimony dominated first week Musk v. Altman. &apos;You can&apos;t just steal a charity&apos;",
+      "description": "Elon Musk, the world's richest person, took the stand and testified over the course of three days in his trial against OpenAI CEO Sam Altman. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/02/musk-testimony-dominated-first-week-musk-v-altman-trial-in-oakland.html",
+      "publishedAt": "2026-05-02T12:00:01.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Jim Cramer says the market powered through a tough earnings week but &apos;that doesn&apos;t mean we&apos;re out of the woods yet&apos;",
+      "description": "CNBC's Jim Cramer looks to the jam-packed earnings week ahead and explains what he's looking for.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/cramer-look-ahead-earnings.html",
+      "publishedAt": "2026-05-01T22:33:26.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "The market isn&apos;t grading all Big Tech earnings the same — here&apos;s why",
+      "description": "After a big week of mega-cap tech earnings, investors are starting to differentiate AI tech winners from those still proving themselves.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/the-market-isnt-grading-all-big-tech-earnings-the-same-heres-why.html",
+      "publishedAt": "2026-05-01T19:11:36.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Apple&apos;s stock gains as company execs cite iPhone, Mac demand in boosting guidance",
+      "description": "On its quarterly earnings call, Apple said revenue growth in the current quarter would be between 14% and 17%, well above analysts' estimates. ",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/apple-stock-rallies-on-q2-earnings-and-q3-guidance.html",
+      "publishedAt": "2026-05-01T20:11:58.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Roblox shares plummet 18% as child safety measures weigh on bookings",
+      "description": "Roblox is facing over 140 federal lawsuits accusing it of failing to prevent child exploitation, and last month settled with Alabama and West Virginia.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/roblox-rblx-stock-child-safety-earnings.html",
+      "publishedAt": "2026-05-01T20:01:24.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Atlassian stock soars 29% after earnings show strong cloud, data center growth",
+      "description": "Atlassian's stock has been hit hard in the \"SaaS-pocalypse\" sweeping software names as AI threatens to disrupt their business models.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/atlassian-team-q3-stock-2026-earnings.html",
+      "publishedAt": "2026-05-01T19:21:05.000Z"
+    },
+    {
+      "query": "Asia Markets",
+      "title": "Apple earnings, DHS shutdown, &apos;Ozempic breath&apos; and more in Morning Squawk",
+      "description": "Here are five key things investors need to know to start the trading day.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/01/5-things-to-know-before-the-market-opens.html",
+      "publishedAt": "2026-05-01T12:09:15.000Z"
+    }
+  ],
+  "chinaNews": [
+    {
+      "query": "财经要闻",
+      "title": "后巴菲特时代，CEO阿贝尔手握创纪录现金，安抚伯克希尔股东",
+      "description": "内容摘要格雷格・阿贝尔面临赢得投资者信任的挑战伯克希尔营业利润同比增长 18%，现金储备创下3802 亿美元历史新高巴菲特卸任 CEO 后...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-05-03/doc-inhwpymt5213458.shtml",
+      "publishedAt": "2026-05-02T20:30:37.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "一文读懂|巴菲特股东大会：拒绝盲目跟风布局AI 3970亿美元现金储备再创新高 深度伪造巴菲特警示AI风险",
+      "description": "北京时间5月2日晚，伯克希尔·哈撒韦公司年度股东大会在美国奥马哈市CHI Health Center举行，这是95岁的巴菲特卸任CEO、由63岁的格雷格·阿贝尔首次以CEO身份主持的会议。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/world/2026-05-03/doc-inhwpymv1988144.shtml",
+      "publishedAt": "2026-05-02T20:19:26.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "伯克希尔股东大会凸显阿贝尔面临艰难的平衡考验",
+      "description": "摘要 格雷格・阿贝尔于周六向伯克希尔・哈撒韦公司股东发表讲话。这是首届没有沃伦・巴菲特主持的年度股东大会。阿贝尔回顾了一年前巴菲特在股东大会上正式指定他为公司下...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-05-03/doc-inhwpyms9288236.shtml",
+      "publishedAt": "2026-05-02T19:51:11.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "加拿大出生的伯克希尔CEO谈冰球：支持加拿大男队和美国女队",
+      "description": " 一位来自加拿大的股东向同样来自加拿大的伯克希尔CEO阿贝尔提问，“加拿大和美国打（冰球）的话，你支持谁？”对此，阿贝尔称“支持加拿大男队和美国女队”。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-05-03/doc-inhwpymx1308830.shtml",
+      "publishedAt": "2026-05-02T19:44:09.000Z"
+    },
+    {
+      "query": "财经要闻",
+      "title": "伯克希尔新任CEO阿贝尔登台亮相，为后巴菲特时代奠定发展基调",
+      "description": "新任掌门人表示，公司现金储备持续扩容，已拟定潜在收购标的候选名单；向投资者承诺企业文化不会发生改变 今年早些时候，格雷格・阿贝尔正式接替沃伦・巴菲特...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-05-03/doc-inhwpymx1301945.shtml",
+      "publishedAt": "2026-05-02T19:14:12.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "后巴菲特时代，CEO阿贝尔手握创纪录现金，安抚伯克希尔股东",
+      "description": "内容摘要格雷格・阿贝尔面临赢得投资者信任的挑战伯克希尔营业利润同比增长 18%，现金储备创下3802 亿美元历史新高巴菲特卸任 CEO 后...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-05-03/doc-inhwpymt5213458.shtml",
+      "publishedAt": "2026-05-02T20:30:37.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "一文读懂|巴菲特股东大会：拒绝盲目跟风布局AI 3970亿美元现金储备再创新高 深度伪造巴菲特警示AI风险",
+      "description": "北京时间5月2日晚，伯克希尔·哈撒韦公司年度股东大会在美国奥马哈市CHI Health Center举行，这是95岁的巴菲特卸任CEO、由63岁的格雷格·阿贝尔首次以CEO身份主持的会议。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/world/2026-05-03/doc-inhwpymv1988144.shtml",
+      "publishedAt": "2026-05-02T20:19:26.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "伯克希尔股东大会凸显阿贝尔面临艰难的平衡考验",
+      "description": "摘要 格雷格・阿贝尔于周六向伯克希尔・哈撒韦公司股东发表讲话。这是首届没有沃伦・巴菲特主持的年度股东大会。阿贝尔回顾了一年前巴菲特在股东大会上正式指定他为公司下...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-05-03/doc-inhwpyms9288236.shtml",
+      "publishedAt": "2026-05-02T19:51:11.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "加拿大出生的伯克希尔CEO谈冰球：支持加拿大男队和美国女队",
+      "description": " 一位来自加拿大的股东向同样来自加拿大的伯克希尔CEO阿贝尔提问，“加拿大和美国打（冰球）的话，你支持谁？”对此，阿贝尔称“支持加拿大男队和美国女队”。",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-05-03/doc-inhwpymx1308830.shtml",
+      "publishedAt": "2026-05-02T19:44:09.000Z"
+    },
+    {
+      "query": "股市动态",
+      "title": "伯克希尔新任CEO阿贝尔登台亮相，为后巴菲特时代奠定发展基调",
+      "description": "新任掌门人表示，公司现金储备持续扩容，已拟定潜在收购标的候选名单；向投资者承诺企业文化不会发生改变 今年早些时候，格雷格・阿贝尔正式接替沃伦・巴菲特...",
+      "source": "环球市场播报",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-05-03/doc-inhwpymx1301945.shtml",
+      "publishedAt": "2026-05-02T19:14:12.000Z"
+    }
+  ]
+}
